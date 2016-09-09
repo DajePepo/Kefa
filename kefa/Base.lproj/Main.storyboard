@@ -1,25 +1,358 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ydP-Wq-mAF">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Montserrat-SemiBold.otf">
+            <string>Montserrat-SemiBold</string>
+            <string>Montserrat-SemiBold</string>
+            <string>Montserrat-SemiBold</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Title-->
+        <scene sceneID="XDF-fR-xNU">
+            <objects>
+                <viewController id="OBA-oR-tXC" customClass="ToothDetailViewController" customModule="kefa" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TCF-ZZ-df0"/>
+                        <viewControllerLayoutGuide type="bottom" id="8PQ-Y6-3HQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="RSx-8j-veO">
+                        <rect key="frame" x="0.0" y="64" width="600" height="536"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="Title" id="T5k-6P-t2R">
+                        <barButtonItem key="leftBarButtonItem" image="backArrow" id="vOH-Op-r06">
+                            <color key="tintColor" red="0.88820043100000001" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="back:" destination="OBA-oR-tXC" id="Ojg-Ba-3V8"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VZx-L2-GVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2698" y="378"/>
+        </scene>
+        <!--Pietro-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="kefa" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="semiCircleGrayUp" translatesAutoresizingMaskIntoConstraints="NO" id="cid-gH-FGE" customClass="BracesView" customModule="kefa" customModuleProvider="target">
+                                <rect key="frame" x="104" y="10" width="392" height="196"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="cid-gH-FGE" secondAttribute="height" multiplier="2:1" id="aL6-nK-6fY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="semiCircleUp" translatesAutoresizingMaskIntoConstraints="NO" id="mbz-qE-bWn">
+                                <rect key="frame" x="130" y="36" width="341" height="171"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mbz-qE-bWn" secondAttribute="height" multiplier="2:1" id="Kqe-Bb-gXl"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="semiCircleGrayDown" translatesAutoresizingMaskIntoConstraints="NO" id="Swt-ab-0VN" customClass="BracesView" customModule="kefa" customModuleProvider="target">
+                                <rect key="frame" x="105" y="282" width="390" height="195"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Swt-ab-0VN" secondAttribute="height" multiplier="2:1" id="89c-Rs-JjK"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="semiCircleDown" translatesAutoresizingMaskIntoConstraints="NO" id="zSr-8F-EyF">
+                                <rect key="frame" x="131" y="282" width="339" height="170"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zSr-8F-EyF" secondAttribute="height" multiplier="2:1" id="tRJ-KA-wrD"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JyT-Aw-60b">
+                                <rect key="frame" x="232" y="176" width="136" height="136"/>
+                                <subviews>
+                                    <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seleziona un dente" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQM-xj-Ovb">
+                                        <rect key="frame" x="5" y="5" width="126" height="126"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="17"/>
+                                        <color key="textColor" red="0.30980392156862746" green="0.82352941176470584" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iZg-SG-JMf">
+                                        <rect key="frame" x="0.0" y="0.0" width="136" height="136"/>
+                                        <connections>
+                                            <segue destination="FQW-N9-QXk" kind="embed" id="CP5-fa-Ili"/>
+                                        </connections>
+                                    </containerView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="XQM-xj-Ovb" secondAttribute="bottom" constant="5" id="68x-7W-t1T"/>
+                                    <constraint firstAttribute="trailing" secondItem="XQM-xj-Ovb" secondAttribute="trailing" constant="5" id="8zF-Hj-Yc1"/>
+                                    <constraint firstItem="iZg-SG-JMf" firstAttribute="centerX" secondItem="XQM-xj-Ovb" secondAttribute="centerX" id="DCg-Nm-G3O"/>
+                                    <constraint firstItem="XQM-xj-Ovb" firstAttribute="leading" secondItem="JyT-Aw-60b" secondAttribute="leading" constant="5" id="FXO-gB-YgO"/>
+                                    <constraint firstAttribute="trailing" secondItem="iZg-SG-JMf" secondAttribute="trailing" id="HRI-6k-XS2"/>
+                                    <constraint firstItem="iZg-SG-JMf" firstAttribute="centerY" secondItem="XQM-xj-Ovb" secondAttribute="centerY" id="ISE-e3-grL"/>
+                                    <constraint firstAttribute="width" secondItem="JyT-Aw-60b" secondAttribute="height" multiplier="1:1" id="a7g-fa-d6k"/>
+                                    <constraint firstItem="iZg-SG-JMf" firstAttribute="centerX" secondItem="XQM-xj-Ovb" secondAttribute="centerX" id="aKZ-uW-o8B"/>
+                                    <constraint firstItem="iZg-SG-JMf" firstAttribute="top" secondItem="JyT-Aw-60b" secondAttribute="top" id="ct8-6O-sJi"/>
+                                    <constraint firstItem="iZg-SG-JMf" firstAttribute="centerY" secondItem="XQM-xj-Ovb" secondAttribute="centerY" id="ez9-SX-Uu5"/>
+                                    <constraint firstItem="iZg-SG-JMf" firstAttribute="leading" secondItem="JyT-Aw-60b" secondAttribute="leading" id="pSz-1L-UUH"/>
+                                    <constraint firstAttribute="bottom" secondItem="iZg-SG-JMf" secondAttribute="bottom" id="vjX-T8-G2f"/>
+                                    <constraint firstItem="XQM-xj-Ovb" firstAttribute="top" secondItem="JyT-Aw-60b" secondAttribute="top" constant="5" id="wCI-uO-xvU"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="DCg-Nm-G3O"/>
+                                        <exclude reference="ISE-e3-grL"/>
+                                        <exclude reference="aKZ-uW-o8B"/>
+                                        <exclude reference="ez9-SX-Uu5"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cn9-F4-41E">
+                                <rect key="frame" x="232" y="176" width="136" height="136"/>
+                                <connections>
+                                    <segue destination="OBA-oR-tXC" kind="show" id="3OH-dP-cLW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="mbz-qE-bWn" firstAttribute="bottom" secondItem="cid-gH-FGE" secondAttribute="bottom" id="61B-il-yT6"/>
+                            <constraint firstItem="JyT-Aw-60b" firstAttribute="width" secondItem="mbz-qE-bWn" secondAttribute="width" multiplier="4:10" id="8c2-Sy-yLP"/>
+                            <constraint firstItem="Cn9-F4-41E" firstAttribute="width" secondItem="JyT-Aw-60b" secondAttribute="width" id="Due-dS-d3K"/>
+                            <constraint firstItem="zSr-8F-EyF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="EcX-Ur-mCS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="zSr-8F-EyF" secondAttribute="bottom" constant="10" id="J4U-Gb-LPe"/>
+                            <constraint firstItem="cid-gH-FGE" firstAttribute="width" secondItem="mbz-qE-bWn" secondAttribute="width" multiplier="345:300" id="KGc-ed-H1e"/>
+                            <constraint firstItem="JyT-Aw-60b" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Kox-ZU-1tV"/>
+                            <constraint firstItem="Swt-ab-0VN" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="M3i-hf-9OD"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="cid-gH-FGE" secondAttribute="trailing" id="TNF-j2-QeQ"/>
+                            <constraint firstItem="Cn9-F4-41E" firstAttribute="height" secondItem="JyT-Aw-60b" secondAttribute="height" id="ZQU-vH-9pA"/>
+                            <constraint firstItem="cid-gH-FGE" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="act-qM-jfw"/>
+                            <constraint firstItem="JyT-Aw-60b" firstAttribute="top" secondItem="mbz-qE-bWn" secondAttribute="bottom" constant="-30" id="beh-EM-GLf"/>
+                            <constraint firstItem="cid-gH-FGE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="f1z-Ba-dDN"/>
+                            <constraint firstItem="Swt-ab-0VN" firstAttribute="width" secondItem="zSr-8F-EyF" secondAttribute="width" multiplier="345:300" id="fMc-KK-TYe"/>
+                            <constraint firstItem="Cn9-F4-41E" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ikK-Cr-DUS"/>
+                            <constraint firstItem="zSr-8F-EyF" firstAttribute="top" secondItem="Swt-ab-0VN" secondAttribute="top" id="m3C-eC-f1e"/>
+                            <constraint firstItem="JyT-Aw-60b" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="m6B-6i-L2Z"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" relation="greaterThanOrEqual" secondItem="Swt-ab-0VN" secondAttribute="bottom" constant="10" id="nEs-Bt-ppu"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="Swt-ab-0VN" secondAttribute="trailing" id="nnS-ds-cjq"/>
+                            <constraint firstItem="zSr-8F-EyF" firstAttribute="top" secondItem="JyT-Aw-60b" secondAttribute="bottom" constant="-30" id="pyl-wS-iWK"/>
+                            <constraint firstItem="mbz-qE-bWn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rHi-80-UkZ"/>
+                            <constraint firstItem="Swt-ab-0VN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="rkc-xy-h1q"/>
+                            <constraint firstItem="Cn9-F4-41E" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rn4-hJ-UhP"/>
+                            <constraint firstItem="cid-gH-FGE" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xbD-LT-coh"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="dXo-dU-Ek6" appends="YES" id="Y0K-SY-9Ej"/>
+                        </connections>
                     </view>
+                    <navigationItem key="navigationItem" title="Pietro" id="qbw-PI-3tP">
+                        <barButtonItem key="leftBarButtonItem" image="backArrow" id="8Th-Uf-aPf">
+                            <color key="tintColor" red="0.88627450980392153" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="list" id="cpp-eM-BJl">
+                            <color key="tintColor" red="0.88820043100000001" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bottomDentalApplianceView" destination="Swt-ab-0VN" id="rfd-Vd-vDT"/>
+                        <outlet property="centerButtonIcon" destination="PnX-4E-aoY" id="a60-JX-xV4"/>
+                        <outlet property="centreButtonBackground" destination="JyT-Aw-60b" id="9tn-mJ-JxR"/>
+                        <outlet property="infoLabel" destination="XQM-xj-Ovb" id="bbq-1G-MLO"/>
+                        <outlet property="panGestureRecognizer" destination="dXo-dU-Ek6" id="PqQ-tl-Yen"/>
+                        <outlet property="semiBottomCircle" destination="zSr-8F-EyF" id="y5T-vx-K5i"/>
+                        <outlet property="semiTopCircle" destination="mbz-qE-bWn" id="Q98-1E-oYd"/>
+                        <outlet property="toothInfoButton" destination="Cn9-F4-41E" id="e4d-2m-Hbq"/>
+                        <outlet property="toothInfoContainer" destination="CA7-Ra-NUP" id="dcj-7e-dOe"/>
+                        <outlet property="toothName" destination="oB3-ye-shZ" id="xdD-5j-U4L"/>
+                        <outlet property="toothStatus" destination="nSN-yq-ESy" id="om1-nF-BZ0"/>
+                        <outlet property="topDentalApplianceView" destination="cid-gH-FGE" id="ssd-kZ-N9l"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="dXo-dU-Ek6">
+                    <connections>
+                        <action selector="swipeTooth:" destination="BYZ-38-t0r" id="h02-Kw-nAL"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
+            <point key="canvasLocation" x="1868" y="378"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="JNj-mc-QaC">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="iGf-cb-ous" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Home" image="homeIcon" id="Se5-hd-Zt1"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="6Im-zY-78J">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="0.42352941179999998" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="18"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="M6Z-9M-GOA"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mbf-v8-xDj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1093" y="378"/>
+        </scene>
+        <!--Appuntamenti-->
+        <scene sceneID="FS1-YQ-cKl">
+            <objects>
+                <viewController id="Hvf-VZ-Ylf" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QzI-bD-zLh"/>
+                        <viewControllerLayoutGuide type="bottom" id="fUO-dz-Ebz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aRX-vr-9jC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Appuntamenti" image="calendarIcon" id="qra-ij-fYb"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hJ4-fR-elq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1093" y="1200"/>
+        </scene>
+        <!--Interventi-->
+        <scene sceneID="avX-K3-Ka1">
+            <objects>
+                <viewController id="c4M-Dk-zpi" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Z7-VB-2tI"/>
+                        <viewControllerLayoutGuide type="bottom" id="0M7-Av-H3l"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="dNv-Q5-UwK">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Interventi" image="hospitalIcon" id="sb8-DK-84G"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fve-wq-qRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1094" y="2009"/>
+        </scene>
+        <!--Dentisti-->
+        <scene sceneID="KkR-mg-LBO">
+            <objects>
+                <viewController id="KYH-ud-76p" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="QAB-Xp-ol5"/>
+                        <viewControllerLayoutGuide type="bottom" id="r2b-vc-YWG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Y8i-nK-wPM">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="551"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Dentisti" image="doctorIcon" id="j8a-m7-nIu"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nAJ-uz-0Ot" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1086" y="2817"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="TQK-bH-Lru">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="ydP-Wq-mAF" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <keyCommands/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="ijN-O9-NoS">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="1" green="0.42352941179999998" blue="0.43921568630000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="iGf-cb-ous" kind="relationship" relationship="viewControllers" id="bEX-g6-klm"/>
+                        <segue destination="Hvf-VZ-Ylf" kind="relationship" relationship="viewControllers" id="xLN-7w-brm"/>
+                        <segue destination="c4M-Dk-zpi" kind="relationship" relationship="viewControllers" id="rFp-xt-f51"/>
+                        <segue destination="KYH-ud-76p" kind="relationship" relationship="viewControllers" id="pJr-sE-pS5"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y0c-XA-gFg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="326" y="378"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="fx7-IH-vF2">
+            <objects>
+                <viewController id="FQW-N9-QXk" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dio-jf-LXY"/>
+                        <viewControllerLayoutGuide type="bottom" id="eeY-F4-bZU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6oj-a6-Hma">
+                        <rect key="frame" x="0.0" y="0.0" width="136" height="136"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="CA7-Ra-NUP">
+                                <rect key="frame" x="33" y="8" width="70" height="120"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teethBig" translatesAutoresizingMaskIntoConstraints="NO" id="PnX-4E-aoY">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="PnX-4E-aoY" secondAttribute="height" multiplier="1:1" id="xmD-oE-UKC"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Incisivo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oB3-ye-shZ">
+                                        <rect key="frame" x="0.5" y="74" width="69" height="22"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
+                                        <color key="textColor" red="0.30980392156862746" green="0.82352941176470584" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="SANO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSN-yq-ESy">
+                                        <rect key="frame" x="11" y="100" width="48" height="20"/>
+                                        <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
+                                        <color key="textColor" red="0.74901960784313726" green="0.74509803921568629" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="CA7-Ra-NUP" firstAttribute="centerY" secondItem="6oj-a6-Hma" secondAttribute="centerY" id="0nG-A9-kaW"/>
+                            <constraint firstItem="CA7-Ra-NUP" firstAttribute="centerX" secondItem="6oj-a6-Hma" secondAttribute="centerX" id="p2y-W9-vBb"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gX3-fh-iqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1868" y="923"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="backArrow" width="25" height="25"/>
+        <image name="calendarIcon" width="25" height="25"/>
+        <image name="doctorIcon" width="25" height="25"/>
+        <image name="homeIcon" width="25" height="25"/>
+        <image name="hospitalIcon" width="25" height="25"/>
+        <image name="list" width="25" height="25"/>
+        <image name="semiCircleDown" width="500" height="250"/>
+        <image name="semiCircleGrayDown" width="500" height="250"/>
+        <image name="semiCircleGrayUp" width="500" height="250"/>
+        <image name="semiCircleUp" width="500" height="250"/>
+        <image name="teethBig" width="70" height="70"/>
+    </resources>
 </document>

@@ -15,7 +15,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Set status bar info color to white
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        
+        // Customize tab bar layout
+        let appearance = UITabBarItem.appearance()
+        let normalFontAttribute = [NSFontAttributeName:UIFont(name: "Montserrat-Bold", size: 13) as! AnyObject, NSForegroundColorAttributeName : UIColor(red: 228/255, green: 69/255, blue: 73/255, alpha: 1)]
+        appearance.setTitleTextAttributes(normalFontAttribute, forState:.Normal)
+        let selectedFontAttribute = [NSForegroundColorAttributeName:UIColor.whiteColor()]
+        appearance.setTitleTextAttributes(selectedFontAttribute, forState:.Selected)
+        
         return true
     }
 
