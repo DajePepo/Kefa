@@ -294,10 +294,10 @@
             </objects>
             <point key="canvasLocation" x="326" y="378"/>
         </scene>
-        <!--View Controller-->
+        <!--Tooth Preview View Controller-->
         <scene sceneID="fx7-IH-vF2">
             <objects>
-                <viewController id="FQW-N9-QXk" sceneMemberID="viewController">
+                <viewController id="FQW-N9-QXk" customClass="ToothPreviewViewController" customModule="kefa" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dio-jf-LXY"/>
                         <viewControllerLayoutGuide type="bottom" id="eeY-F4-bZU"/>
@@ -307,22 +307,22 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="CA7-Ra-NUP">
-                                <rect key="frame" x="33" y="8" width="70" height="120"/>
+                                <rect key="frame" x="34" y="10" width="69" height="116"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="teethBig" translatesAutoresizingMaskIntoConstraints="NO" id="PnX-4E-aoY">
-                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="teethBig" translatesAutoresizingMaskIntoConstraints="NO" id="PnX-4E-aoY">
+                                        <rect key="frame" x="1" y="0.0" width="68" height="68"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="PnX-4E-aoY" secondAttribute="height" multiplier="1:1" id="xmD-oE-UKC"/>
                                         </constraints>
                                     </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Incisivo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oB3-ye-shZ">
-                                        <rect key="frame" x="0.5" y="74" width="69" height="22"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" misplaced="YES" text="Incisivo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oB3-ye-shZ">
+                                        <rect key="frame" x="0.0" y="72" width="69" height="22"/>
                                         <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="18"/>
                                         <color key="textColor" red="0.30980392156862746" green="0.82352941176470584" blue="0.76078431372549016" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="SANO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSN-yq-ESy">
-                                        <rect key="frame" x="11" y="100" width="48" height="20"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" misplaced="YES" text="SANO" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSN-yq-ESy">
+                                        <rect key="frame" x="11" y="97" width="48" height="19"/>
                                         <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="16"/>
                                         <color key="textColor" red="0.74901960784313726" green="0.74509803921568629" blue="0.75294117647058822" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -330,12 +330,22 @@
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="CA7-Ra-NUP" firstAttribute="centerY" secondItem="6oj-a6-Hma" secondAttribute="centerY" id="0nG-A9-kaW"/>
+                            <constraint firstItem="CA7-Ra-NUP" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6oj-a6-Hma" secondAttribute="leadingMargin" constant="10" id="A9j-OR-EVk"/>
+                            <constraint firstItem="CA7-Ra-NUP" firstAttribute="top" relation="greaterThanOrEqual" secondItem="dio-jf-LXY" secondAttribute="bottom" constant="10" id="Lqq-1F-hJh"/>
+                            <constraint firstItem="eeY-F4-bZU" firstAttribute="top" relation="greaterThanOrEqual" secondItem="CA7-Ra-NUP" secondAttribute="bottom" constant="10" id="WX2-wZ-an3"/>
+                            <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="CA7-Ra-NUP" secondAttribute="trailing" constant="10" id="ov2-ts-Yyh"/>
                             <constraint firstItem="CA7-Ra-NUP" firstAttribute="centerX" secondItem="6oj-a6-Hma" secondAttribute="centerX" id="p2y-W9-vBb"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="centerButtonIcon" destination="PnX-4E-aoY" id="mhS-BY-gi0"/>
+                        <outlet property="toothInfoContainer" destination="CA7-Ra-NUP" id="hDM-3g-GwG"/>
+                        <outlet property="toothName" destination="oB3-ye-shZ" id="McW-LE-0bi"/>
+                        <outlet property="toothStatus" destination="nSN-yq-ESy" id="UIP-OF-ivQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gX3-fh-iqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

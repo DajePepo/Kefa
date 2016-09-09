@@ -15,12 +15,13 @@ class ViewController: UIViewController, MouthDelegate {
     
     let path = UIBezierPath()
     let shapeLayer = CAShapeLayer()
+    let teethNumber = 32.0
     var isFirstTime = true
     var alreadyOnTopBraces = false
     var alreadyOnBottomBraces = false
     var teeth: [Int:Tooth]!
-    let teethNumber = 32.0
     var mouth = MouthView()
+    var toothPreviewViewController: ToothPreviewViewController?
     
     
     // MARK: - Interface Builder Outlet
@@ -33,19 +34,11 @@ class ViewController: UIViewController, MouthDelegate {
     
     @IBOutlet weak var toothInfoButton: UIButton!
     
-    @IBOutlet weak var toothName: UILabel!
-    
-    @IBOutlet weak var toothStatus: UILabel!
-    
     @IBOutlet weak var topDentalApplianceView: BracesView!
-    
-    @IBOutlet weak var centerButtonIcon: UIImageView!
     
     @IBOutlet weak var bottomDentalApplianceView: BracesView!
     
     @IBOutlet weak var infoLabel: UILabel!
-    
-    @IBOutlet weak var toothInfoContainer: UIStackView!
     
     @IBOutlet weak var centreButtonBackground: UIView! {
         didSet {
@@ -75,12 +68,14 @@ class ViewController: UIViewController, MouthDelegate {
             (item as! UITabBarItem).image = (item as! UITabBarItem).image?.imageWithRenderingMode(.AlwaysOriginal)
         }
         
+        toothPreviewViewController = childViewControllers.first as? ToothPreviewViewController
+        
         // Set this class as delegate for month view
         mouth.delegate = self
         
         // Show info label instead of tooth detail
         infoLabel.hidden = false
-        toothInfoContainer.hidden = true
+        toothPreviewViewController?.toothInfoContainer.hidden = true
         
         // Get teeth from local source (TO UPDATE)
         teeth = getTeeth()
@@ -133,7 +128,7 @@ class ViewController: UIViewController, MouthDelegate {
     
     @IBAction func swipeTooth(gesture: UIPanGestureRecognizer) {
         infoLabel.hidden = true
-        toothInfoContainer.hidden = false
+        toothPreviewViewController?.toothInfoContainer.hidden = false
 
         let translation = gesture.locationInView(self.view)
         
@@ -161,7 +156,7 @@ class ViewController: UIViewController, MouthDelegate {
     
     func tapSingleTooth(gesture: UITapGestureRecognizer) {
         infoLabel.hidden = true
-        toothInfoContainer.hidden = false
+        toothPreviewViewController?.toothInfoContainer.hidden = false
 
         let tooth = gesture.view as! ToothView
         moveToTooth(tooth)
@@ -203,9 +198,9 @@ class ViewController: UIViewController, MouthDelegate {
         view.layer.insertSublayer(shapeLayer, below: centreButtonBackground.layer)
         
         // Update name and info of the tooth shown in the big white circle
-        toothName.text = "Apparec.."
-        toothStatus.text = "Fisso"
-        centerButtonIcon.image = UIImage(named: "bracesBig")
+        toothPreviewViewController?.toothName.text = "Apparec.."
+        toothPreviewViewController?.toothStatus.text = "Fisso"
+        toothPreviewViewController?.centerButtonIcon.image = UIImage(named: "bracesBig")
     }
     
     func moveToTooth(tooth: ToothView) {
@@ -236,9 +231,9 @@ class ViewController: UIViewController, MouthDelegate {
         }
         
         // Update name and info of the tooth shown in the big white circle
-        toothName.text = teeth[tooth.identifier]?.name
-        toothStatus.text = teeth[tooth.identifier]?.status
-        centerButtonIcon.image = UIImage(named: "teethBig")
+        toothPreviewViewController?.toothName.text = teeth[tooth.identifier]?.name
+        toothPreviewViewController?.toothStatus.text = teeth[tooth.identifier]?.status
+        toothPreviewViewController?.centerButtonIcon.image = UIImage(named: "teethBig")
     }
     
     
