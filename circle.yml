@@ -1,3 +1,12 @@
 machine:
   xcode:
     version: 8.2
+  environment:
+    GYM_CODE_SIGNING_IDENTITY: "iPhone Developer: Pietro Santececca (E65773GTG7)"
+
+deployment:
+  beta_distribution:
+    branch: master
+    commands:
+      - fastlane gym
+      - ipa distribute:itunesconnect -i 1228817345 --upload --verbose
