@@ -8,5 +8,5 @@ deployment:
   beta_distribution:
     branch: master
     commands:
-      - fastlane gym
+      - fastlane gym(use_legacy_build_api: true)
       - ipa distribute:itunesconnect -i 1228817345 --upload --verbose
