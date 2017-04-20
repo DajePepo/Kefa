@@ -9,7 +9,7 @@
 import UIKit
 
 @objc protocol MouthDelegate : AnyObject {
-    func tapSingleTooth(gesture: UITapGestureRecognizer)
+    func tapSingleTooth(_ gesture: UITapGestureRecognizer)
 }
 
 class MouthView: UIView {
@@ -18,25 +18,25 @@ class MouthView: UIView {
     var topGum: UIView?
     var bottomGum: UIView?
     var delegate: MouthDelegate?
-    let teethNumber = 32
     
-    func disactive() {
-        for tooth in teeth {
-            tooth.disactive()
-        }
+    func disable() {
+        for tooth in teeth { tooth.disable() }
         topGum?.alpha = 0.25
         bottomGum?.alpha = 0.25
     }
     
-    func active() {
-        for tooth in teeth {
-            tooth.active()
-        }
+    func enable() {
+        for tooth in teeth { tooth.enable() }
         topGum?.alpha = 1
         bottomGum?.alpha = 1
     }
     
-    func drawInTheView(view: UIView) {
+    func deselectAllTeeth() {
+        for tooth in teeth { tooth.deselect() }
+    }
+    
+    func drawInTheView(_ view: UIView, numberOfTeeth teethNumber: Int) {
+        
         let angleInterval = 180.0 / ((Double(teethNumber) / 2) - 1)
         let radius = topGum!.frame.size.height - 1
         let centerSemiTopCircle = CGPoint(x: topGum!.frame.origin.x + (topGum!.frame.size.width / 2), y: topGum!.frame.origin.y + topGum!.frame.size.height)
@@ -58,7 +58,7 @@ class MouthView: UIView {
             let circleTooth = ToothView(id: Int(i), center: pointOnTheCircle!)
             circleTooth.addGestureRecognizer(UITapGestureRecognizer(target: delegate, action: #selector(MouthDelegate.tapSingleTooth(_:))))
             teeth.append(circleTooth)
-            view.insertSubview(circleTooth, atIndex: 4)
+            view.insertSubview(circleTooth, at: 4)
         }
     }
     

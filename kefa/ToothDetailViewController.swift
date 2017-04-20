@@ -15,14 +15,14 @@ class ToothDetailViewController: UIViewController {
 
         // Set color of navigation bar title
         if let font = UIFont(name: "Montserrat-Bold", size: 18) {
-            self.navigationController?.navigationBar.titleTextAttributes = [ NSFontAttributeName: font, NSForegroundColorAttributeName: UIColor.whiteColor()]
+            self.navigationController?.navigationBar.titleTextAttributes = [ NSFontAttributeName: font, NSForegroundColorAttributeName: UIColor.white]
         }
         
-        self.tabBarController?.tabBar.tintColor = UIColor.whiteColor()
+        self.tabBarController?.tabBar.tintColor = UIColor.white
     }
 
-    @IBAction func back(sender: UIBarButtonItem) {
-        self.navigationController?.popViewControllerAnimated(true)
+    @IBAction func back(_ sender: UIBarButtonItem) {
+        _ = navigationController?.popViewController(animated: true)
     }
 
 }

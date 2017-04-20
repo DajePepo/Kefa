@@ -9,7 +9,7 @@
 import UIKit
 
 protocol ToothDelegate: class {
-    func tapHanlder(id: Int)
+    func tapHanlder(_ id: Int)
 }
 
 class ToothView: UIView {
@@ -31,10 +31,10 @@ class ToothView: UIView {
         super.init(frame: CGRect(origin: CGPoint(x: 0, y: 0), size: unselectedSizeFrame))
         self.center = circleToothCenter
         
-        backgroundColor = UIColor.whiteColor()
+        backgroundColor = UIColor.white
         layer.borderWidth = 1.5
-        layer.cornerRadius = CGRectGetWidth(frame)/2.0
-        layer.borderColor = UIColor.grayColor().CGColor
+        layer.cornerRadius = frame.width/2.0
+        layer.borderColor = UIColor.gray.cgColor
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -42,19 +42,19 @@ class ToothView: UIView {
     }
     
     func select() {
-        layer.borderColor = UIColor(red: 79/255, green: 210/255, blue: 194/255, alpha: 1).CGColor
+        layer.borderColor = UIColor(red: 79/255, green: 210/255, blue: 194/255, alpha: 1).cgColor
         layer.borderWidth = 2
         layer.cornerRadius = selectedSizeFrame.width/2.0
         self.isSelected = true
         
-        UIView.animateWithDuration(0.1, animations: { () -> Void in
+        UIView.animate(withDuration: 0.1, animations: { () -> Void in
             self.frame.size = self.selectedSizeFrame
             self.center = self.circleToothCenter
-        }) { _ in self.isSelected = true }
+        }, completion: { _ in self.isSelected = true }) 
     }
     
-    func unselect() {
-        layer.borderColor = UIColor.grayColor().CGColor
+    func deselect() {
+        layer.borderColor = UIColor.gray.cgColor
         layer.borderWidth = 1.5
         
 //        UIView.animateWithDuration(0.0, animations: { () -> Void in
@@ -66,18 +66,18 @@ class ToothView: UIView {
 //        }
     }
     
-    func disactive() {
-        unselect()
+    func disable() {
+        deselect()
         backgroundColor = UIColor(red: 248/255, green: 248/255, blue: 248/255, alpha: 1)
-        layer.borderColor = UIColor(red: 216/255, green: 216/255, blue: 216/255, alpha: 1).CGColor
+        layer.borderColor = UIColor(red: 216/255, green: 216/255, blue: 216/255, alpha: 1).cgColor
     }
     
-    func active() {
-        backgroundColor = UIColor.whiteColor()
-        layer.borderColor = UIColor.grayColor().CGColor
+    func enable() {
+        backgroundColor = UIColor.white
+        layer.borderColor = UIColor.gray.cgColor
     }
     
-    func pointIsInsideTouchArea(point: CGPoint) -> Bool {
+    func pointIsInsideTouchArea(_ point: CGPoint) -> Bool {
         if point.x < (self.center.x + touchAreaRadius) &&
            point.x > (self.center.x - touchAreaRadius) &&
            point.y < (self.center.y + touchAreaRadius) &&

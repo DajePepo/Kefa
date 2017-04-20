@@ -31,6 +31,23 @@ class kefaUITests: XCTestCase {
     func testExample() {
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        
+        
+        
+        let app = XCUIApplication()
+        let element = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
+        let image = element.children(matching: .image).element(boundBy: 1)
+        image.tap()
+        element.children(matching: .other).element(boundBy: 72).tap()
+        element.children(matching: .other).element(boundBy: 74).swipeRight()
+        element.children(matching: .other).element(boundBy: 204).tap()
+        element.children(matching: .image).element(boundBy: 0).swipeLeft()
+        image.swipeLeft()
+        element.children(matching: .other).element(boundBy: 327).tap()
+        element.children(matching: .button).element.tap()
+        app.navigationBars["Title"].buttons["backArrow"].tap()
+        
+        
     }
     
 }

@@ -7,9 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5D6746B92709C32B27468171 /* Pods_kefaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B430EF842A05861BDEB8E /* Pods_kefaUITests.framework */; };
+		8650D47B23D32F2431B5E603 /* Pods_kefaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB909BA3E84522360807E3A /* Pods_kefaTests.framework */; };
 		9A06E01B1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */; };
 		9A06E01C1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */; };
 		9A06E01D1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */; };
+		9A2EF2D41E575F2B0046748D /* ToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D31E575F2B0046748D /* ToothViewModel.swift */; };
+		9A2EF2D51E575F2B0046748D /* ToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D31E575F2B0046748D /* ToothViewModel.swift */; };
+		9A2EF2D61E575F2B0046748D /* ToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D31E575F2B0046748D /* ToothViewModel.swift */; };
+		9A2EF2D81E575F660046748D /* SelectToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D71E575F660046748D /* SelectToothViewModel.swift */; };
+		9A2EF2D91E575F660046748D /* SelectToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D71E575F660046748D /* SelectToothViewModel.swift */; };
+		9A2EF2DA1E575F660046748D /* SelectToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D71E575F660046748D /* SelectToothViewModel.swift */; };
+		9A2EF2E01E576A030046748D /* TeethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2DF1E576A030046748D /* TeethViewController.swift */; };
+		9A2EF2E11E576A030046748D /* TeethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2DF1E576A030046748D /* TeethViewController.swift */; };
+		9A2EF2E21E576A030046748D /* TeethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2DF1E576A030046748D /* TeethViewController.swift */; };
+		9A2EF2E31E576B400046748D /* SelectToothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903DB91C943FA200362391 /* SelectToothViewController.swift */; };
+		9A2EF2E41E576B400046748D /* SelectToothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903DB91C943FA200362391 /* SelectToothViewController.swift */; };
+		9A2EF2E71E5772810046748D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2E61E5772810046748D /* UIViewControllerExtension.swift */; };
+		9A2EF2E81E5772810046748D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2E61E5772810046748D /* UIViewControllerExtension.swift */; };
+		9A2EF2E91E5772810046748D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2E61E5772810046748D /* UIViewControllerExtension.swift */; };
+		9A2EF2EB1E57772C0046748D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EA1E57772C0046748D /* CustomTabBarController.swift */; };
+		9A2EF2EC1E57772C0046748D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EA1E57772C0046748D /* CustomTabBarController.swift */; };
+		9A2EF2ED1E57772C0046748D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EA1E57772C0046748D /* CustomTabBarController.swift */; };
+		9A2EF2EF1E577D590046748D /* DashLineShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EE1E577D590046748D /* DashLineShapeLayer.swift */; };
+		9A2EF2F01E577D590046748D /* DashLineShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EE1E577D590046748D /* DashLineShapeLayer.swift */; };
+		9A2EF2F11E577D590046748D /* DashLineShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EE1E577D590046748D /* DashLineShapeLayer.swift */; };
+		9A2EF2F41E5D00B80046748D /* TeethDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2F31E5D00B80046748D /* TeethDataManager.swift */; };
+		9A2EF2F51E5D00B80046748D /* TeethDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2F31E5D00B80046748D /* TeethDataManager.swift */; };
+		9A2EF2F61E5D00B80046748D /* TeethDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2F31E5D00B80046748D /* TeethDataManager.swift */; };
+		9A3DA92A1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */; };
+		9A3DA92B1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */; };
+		9A3DA92C1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */; };
 		9A5A8DEC1C9F114700DCA409 /* Tooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DEB1C9F114700DCA409 /* Tooth.swift */; };
 		9A5A8DED1C9F114700DCA409 /* Tooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DEB1C9F114700DCA409 /* Tooth.swift */; };
 		9A5A8DEE1C9F114700DCA409 /* Tooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DEB1C9F114700DCA409 /* Tooth.swift */; };
@@ -17,7 +45,7 @@
 		9A5A8DF31C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */; };
 		9A5A8DF41C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */; };
 		9A903DB81C943FA200362391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903DB71C943FA200362391 /* AppDelegate.swift */; };
-		9A903DBA1C943FA200362391 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903DB91C943FA200362391 /* ViewController.swift */; };
+		9A903DBA1C943FA200362391 /* SelectToothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903DB91C943FA200362391 /* SelectToothViewController.swift */; };
 		9A903DBD1C943FA200362391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DBB1C943FA200362391 /* Main.storyboard */; };
 		9A903DBF1C943FA200362391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DBE1C943FA200362391 /* Assets.xcassets */; };
 		9A903DC21C943FA200362391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DC01C943FA200362391 /* LaunchScreen.storyboard */; };
@@ -59,6 +87,7 @@
 		9AB31E1F1CBBFBC7006EBFEE /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */; };
 		9AB31E201CBBFBC7006EBFEE /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */; };
 		9AB31E211CBBFBC7006EBFEE /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */; };
+		F2C392B8F431586402730D4E /* Pods_kefa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4610AA91A7611D6CDB4C3DB /* Pods_kefa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,12 +108,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0896070BE0121300513499AC /* Pods-kefa.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kefa.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kefa/Pods-kefa.debug.xcconfig"; sourceTree = "<group>"; };
+		139A82D0F5B9FA31D8717400 /* Pods-kefaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kefaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kefaUITests/Pods-kefaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3FE852FC9E15D58EC0DAEE8C /* Pods-kefaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kefaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kefaTests/Pods-kefaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4EF67E7636EE668374698D06 /* Pods-kefaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kefaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kefaTests/Pods-kefaTests.release.xcconfig"; sourceTree = "<group>"; };
+		708B430EF842A05861BDEB8E /* Pods_kefaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kefaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A4270AF049A5F6BF8A48E7F /* Pods-kefaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kefaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kefaUITests/Pods-kefaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToothPreviewViewController.swift; sourceTree = "<group>"; };
+		9A2EF2D31E575F2B0046748D /* ToothViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToothViewModel.swift; sourceTree = "<group>"; };
+		9A2EF2D71E575F660046748D /* SelectToothViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectToothViewModel.swift; sourceTree = "<group>"; };
+		9A2EF2DF1E576A030046748D /* TeethViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeethViewController.swift; sourceTree = "<group>"; };
+		9A2EF2E61E5772810046748D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		9A2EF2EA1E57772C0046748D /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		9A2EF2EE1E577D590046748D /* DashLineShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashLineShapeLayer.swift; sourceTree = "<group>"; };
+		9A2EF2F31E5D00B80046748D /* TeethDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeethDataManager.swift; sourceTree = "<group>"; };
+		9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		9A5A8DEB1C9F114700DCA409 /* Tooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tooth.swift; sourceTree = "<group>"; };
 		9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToothDetailViewController.swift; sourceTree = "<group>"; };
 		9A903DB41C943FA200362391 /* kefa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kefa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A903DB71C943FA200362391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9A903DB91C943FA200362391 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A903DB91C943FA200362391 /* SelectToothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectToothViewController.swift; sourceTree = "<group>"; };
 		9A903DBC1C943FA200362391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A903DBE1C943FA200362391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A903DC11C943FA200362391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -107,6 +150,9 @@
 		9A9A8DAC1C95BAC20095DFCD /* ToothView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToothView.swift; sourceTree = "<group>"; };
 		9AB31E1A1CBBE1DF006EBFEE /* BracesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BracesView.swift; sourceTree = "<group>"; };
 		9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouthView.swift; sourceTree = "<group>"; };
+		9DB909BA3E84522360807E3A /* Pods_kefaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kefaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4610AA91A7611D6CDB4C3DB /* Pods_kefa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kefa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E34D99387EF25542F71B01AB /* Pods-kefa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kefa.release.xcconfig"; path = "Pods/Target Support Files/Pods-kefa/Pods-kefa.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +160,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C392B8F431586402730D4E /* Pods_kefa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,6 +168,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8650D47B23D32F2431B5E603 /* Pods_kefaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -128,28 +176,84 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5D6746B92709C32B27468171 /* Pods_kefaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9A5A8DEF1C9F114F00DCA409 /* Model */ = {
+		1BD52E2E454C45EA1EF8B4C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4610AA91A7611D6CDB4C3DB /* Pods_kefa.framework */,
+				9DB909BA3E84522360807E3A /* Pods_kefaTests.framework */,
+				708B430EF842A05861BDEB8E /* Pods_kefaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A2EF2D01E5494C50046748D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9A2EF2D71E575F660046748D /* SelectToothViewModel.swift */,
+				9A2EF2D31E575F2B0046748D /* ToothViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		9A2EF2D11E5494F50046748D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A903DE51C94550D00362391 /* Font */,
+				9A903DC31C943FA200362391 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A2EF2D21E5495300046748D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				9A903DC01C943FA200362391 /* LaunchScreen.storyboard */,
+				9A903DBB1C943FA200362391 /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		9A2EF2E51E5772540046748D /* Extenions */ = {
+			isa = PBXGroup;
+			children = (
+				9A2EF2E61E5772810046748D /* UIViewControllerExtension.swift */,
+			);
+			name = Extenions;
+			sourceTree = "<group>";
+		};
+		9A2EF2F21E5D009F0046748D /* Data Managers */ = {
+			isa = PBXGroup;
+			children = (
+				9A2EF2F31E5D00B80046748D /* TeethDataManager.swift */,
+			);
+			name = "Data Managers";
+			sourceTree = "<group>";
+		};
+		9A3DA9281E70274500EEEC36 /* SelectTooth */ = {
+			isa = PBXGroup;
+			children = (
+				9A903DB91C943FA200362391 /* SelectToothViewController.swift */,
+				9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */,
+				9A9A8DAC1C95BAC20095DFCD /* ToothView.swift */,
+				9AB31E1A1CBBE1DF006EBFEE /* BracesView.swift */,
+				9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */,
+			);
+			name = SelectTooth;
+			sourceTree = "<group>";
+		};
+		9A5A8DEF1C9F114F00DCA409 /* Models */ = {
 			isa = PBXGroup;
 			children = (
 				9A5A8DEB1C9F114700DCA409 /* Tooth.swift */,
 			);
-			name = Model;
-			sourceTree = "<group>";
-		};
-		9A5A8DF01C9F116100DCA409 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				9A903DB91C943FA200362391 /* ViewController.swift */,
-				9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */,
-				9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */,
-			);
-			name = Controller;
+			name = Models;
 			sourceTree = "<group>";
 		};
 		9A903DAB1C943FA100362391 = {
@@ -159,6 +263,8 @@
 				9A903DCB1C943FA200362391 /* kefaTests */,
 				9A903DD61C943FA200362391 /* kefaUITests */,
 				9A903DB51C943FA200362391 /* Products */,
+				FF16CBDAF0426B6120A05C8F /* Pods */,
+				1BD52E2E454C45EA1EF8B4C7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -176,15 +282,15 @@
 			isa = PBXGroup;
 			children = (
 				9A903DB71C943FA200362391 /* AppDelegate.swift */,
-				9A903DBB1C943FA200362391 /* Main.storyboard */,
 				9A903DBE1C943FA200362391 /* Assets.xcassets */,
-				9A903DC01C943FA200362391 /* LaunchScreen.storyboard */,
-				9A903DC31C943FA200362391 /* Info.plist */,
-				9A5A8DEF1C9F114F00DCA409 /* Model */,
+				9A2EF2D21E5495300046748D /* Storyboards */,
+				9A5A8DEF1C9F114F00DCA409 /* Models */,
 				9A9A8DB01C95BADA0095DFCD /* Views */,
-				9A5A8DF01C9F116100DCA409 /* Controller */,
+				9A2EF2D01E5494C50046748D /* ViewModels */,
+				9A2EF2F21E5D009F0046748D /* Data Managers */,
 				9A9A8DA71C945DD70095DFCD /* Utilities */,
-				9A903DE51C94550D00362391 /* Font */,
+				9A2EF2E51E5772540046748D /* Extenions */,
+				9A2EF2D11E5494F50046748D /* Supporting Files */,
 			);
 			path = kefa;
 			sourceTree = "<group>";
@@ -233,11 +339,27 @@
 		9A9A8DB01C95BADA0095DFCD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9A9A8DAC1C95BAC20095DFCD /* ToothView.swift */,
-				9AB31E1A1CBBE1DF006EBFEE /* BracesView.swift */,
-				9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */,
+				9A3DA9281E70274500EEEC36 /* SelectTooth */,
+				9A2EF2DF1E576A030046748D /* TeethViewController.swift */,
+				9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */,
+				9A2EF2EA1E57772C0046748D /* CustomTabBarController.swift */,
+				9A2EF2EE1E577D590046748D /* DashLineShapeLayer.swift */,
+				9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		FF16CBDAF0426B6120A05C8F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0896070BE0121300513499AC /* Pods-kefa.debug.xcconfig */,
+				E34D99387EF25542F71B01AB /* Pods-kefa.release.xcconfig */,
+				3FE852FC9E15D58EC0DAEE8C /* Pods-kefaTests.debug.xcconfig */,
+				4EF67E7636EE668374698D06 /* Pods-kefaTests.release.xcconfig */,
+				139A82D0F5B9FA31D8717400 /* Pods-kefaUITests.debug.xcconfig */,
+				7A4270AF049A5F6BF8A48E7F /* Pods-kefaUITests.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,9 +369,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A903DDC1C943FA200362391 /* Build configuration list for PBXNativeTarget "kefa" */;
 			buildPhases = (
+				0C4130AA64D3C9E00839F35D /* [CP] Check Pods Manifest.lock */,
 				9A903DB01C943FA100362391 /* Sources */,
 				9A903DB11C943FA100362391 /* Frameworks */,
 				9A903DB21C943FA100362391 /* Resources */,
+				22B61CA91B28A881C45645B0 /* [CP] Embed Pods Frameworks */,
+				DC8D8A58D47295486282D334 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,9 +389,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A903DDF1C943FA200362391 /* Build configuration list for PBXNativeTarget "kefaTests" */;
 			buildPhases = (
+				701FD4AD25044B4CCB4218F7 /* [CP] Check Pods Manifest.lock */,
 				9A903DC41C943FA200362391 /* Sources */,
 				9A903DC51C943FA200362391 /* Frameworks */,
 				9A903DC61C943FA200362391 /* Resources */,
+				0071E1F40D9F3A32CEB22E6A /* [CP] Embed Pods Frameworks */,
+				4AA5C2C8C0A228632A3828A0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -282,9 +410,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A903DE21C943FA200362391 /* Build configuration list for PBXNativeTarget "kefaUITests" */;
 			buildPhases = (
+				7806F91AF68E6414A0CF2025 /* [CP] Check Pods Manifest.lock */,
 				9A903DCF1C943FA200362391 /* Sources */,
 				9A903DD01C943FA200362391 /* Frameworks */,
 				9A903DD11C943FA200362391 /* Resources */,
+				E1932F3331A3246F4F266913 /* [CP] Embed Pods Frameworks */,
+				B7D82D54A089225C57BC9BD1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -303,19 +434,22 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Pietro Santececca";
 				TargetAttributes = {
 					9A903DB31C943FA100362391 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = RQW2C3NG99;
+						LastSwiftMigration = 0800;
 					};
 					9A903DC71C943FA200362391 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9A903DB31C943FA100362391;
 					};
 					9A903DD21C943FA200362391 = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0800;
 						TestTargetID = 9A903DB31C943FA100362391;
 					};
 				};
@@ -391,20 +525,166 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0071E1F40D9F3A32CEB22E6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaTests/Pods-kefaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C4130AA64D3C9E00839F35D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		22B61CA91B28A881C45645B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefa/Pods-kefa-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AA5C2C8C0A228632A3828A0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaTests/Pods-kefaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		701FD4AD25044B4CCB4218F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7806F91AF68E6414A0CF2025 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7D82D54A089225C57BC9BD1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaUITests/Pods-kefaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC8D8A58D47295486282D334 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefa/Pods-kefa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1932F3331A3246F4F266913 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaUITests/Pods-kefaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9A903DB01C943FA100362391 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2EF2F41E5D00B80046748D /* TeethDataManager.swift in Sources */,
 				9A5A8DF21C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */,
-				9A903DBA1C943FA200362391 /* ViewController.swift in Sources */,
+				9A903DBA1C943FA200362391 /* SelectToothViewController.swift in Sources */,
 				9A06E01B1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */,
 				9A9A8DA91C945E190095DFCD /* Util.swift in Sources */,
 				9AB31E1B1CBBE1DF006EBFEE /* BracesView.swift in Sources */,
+				9A2EF2E01E576A030046748D /* TeethViewController.swift in Sources */,
+				9A2EF2D81E575F660046748D /* SelectToothViewModel.swift in Sources */,
+				9A2EF2EF1E577D590046748D /* DashLineShapeLayer.swift in Sources */,
 				9A5A8DEC1C9F114700DCA409 /* Tooth.swift in Sources */,
+				9A2EF2EB1E57772C0046748D /* CustomTabBarController.swift in Sources */,
 				9A903DB81C943FA200362391 /* AppDelegate.swift in Sources */,
+				9A2EF2E71E5772810046748D /* UIViewControllerExtension.swift in Sources */,
 				9A9A8DAD1C95BAC20095DFCD /* ToothView.swift in Sources */,
 				9AB31E1F1CBBFBC7006EBFEE /* MouthView.swift in Sources */,
+				9A3DA92A1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */,
+				9A2EF2D41E575F2B0046748D /* ToothViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,14 +692,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2EF2F51E5D00B80046748D /* TeethDataManager.swift in Sources */,
 				9A5A8DF31C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */,
 				9A5A8DED1C9F114700DCA409 /* Tooth.swift in Sources */,
 				9AB31E1C1CBBE1DF006EBFEE /* BracesView.swift in Sources */,
+				9A2EF2D51E575F2B0046748D /* ToothViewModel.swift in Sources */,
 				9A903DCD1C943FA200362391 /* kefaTests.swift in Sources */,
 				9A06E01C1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */,
+				9A2EF2E11E576A030046748D /* TeethViewController.swift in Sources */,
+				9A2EF2F01E577D590046748D /* DashLineShapeLayer.swift in Sources */,
 				9A9A8DAA1C945E190095DFCD /* Util.swift in Sources */,
+				9A2EF2EC1E57772C0046748D /* CustomTabBarController.swift in Sources */,
 				9AB31E201CBBFBC7006EBFEE /* MouthView.swift in Sources */,
+				9A2EF2E81E5772810046748D /* UIViewControllerExtension.swift in Sources */,
 				9A9A8DAE1C95BAC20095DFCD /* ToothView.swift in Sources */,
+				9A2EF2D91E575F660046748D /* SelectToothViewModel.swift in Sources */,
+				9A3DA92B1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */,
+				9A2EF2E31E576B400046748D /* SelectToothViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,14 +716,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A2EF2F61E5D00B80046748D /* TeethDataManager.swift in Sources */,
 				9A5A8DF41C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */,
 				9A5A8DEE1C9F114700DCA409 /* Tooth.swift in Sources */,
 				9AB31E1D1CBBE1DF006EBFEE /* BracesView.swift in Sources */,
+				9A2EF2D61E575F2B0046748D /* ToothViewModel.swift in Sources */,
 				9A903DD81C943FA200362391 /* kefaUITests.swift in Sources */,
 				9A06E01D1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */,
+				9A2EF2E21E576A030046748D /* TeethViewController.swift in Sources */,
+				9A2EF2F11E577D590046748D /* DashLineShapeLayer.swift in Sources */,
 				9A9A8DAB1C945E190095DFCD /* Util.swift in Sources */,
+				9A2EF2ED1E57772C0046748D /* CustomTabBarController.swift in Sources */,
 				9AB31E211CBBFBC7006EBFEE /* MouthView.swift in Sources */,
+				9A2EF2E91E5772810046748D /* UIViewControllerExtension.swift in Sources */,
 				9A9A8DAF1C95BAC20095DFCD /* ToothView.swift in Sources */,
+				9A2EF2DA1E575F660046748D /* SelectToothViewModel.swift in Sources */,
+				9A3DA92C1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */,
+				9A2EF2E41E576B400046748D /* SelectToothViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,11 +784,14 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pietro Santececca (NU72F65LY2)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pietro Santececca (NU72F65LY2)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -509,11 +810,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -531,11 +833,14 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pietro Santececca (A5KJ3Z3G6S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pietro Santececca (A5KJ3Z3G6S)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -548,9 +853,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -558,65 +865,78 @@
 		};
 		9A903DDD1C943FA200362391 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0896070BE0121300513499AC /* Pods-kefa.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pietro Santececca (E65773GTG7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pietro Santececca (E65773GTG7)";
 				INFOPLIST_FILE = kefa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c312a16a-13a4-4bee-9819-5fcec3117314";
+				PROVISIONING_PROFILE_SPECIFIER = "Kefa Development";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		9A903DDE1C943FA200362391 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E34D99387EF25542F71B01AB /* Pods-kefa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Pietro Santececca (E65773GTG7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pietro Santececca (E65773GTG7)";
+				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
 				INFOPLIST_FILE = kefa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "c312a16a-13a4-4bee-9819-5fcec3117314";
+				PROVISIONING_PROFILE_SPECIFIER = "Kefa Development";
+				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		9A903DE01C943FA200362391 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE852FC9E15D58EC0DAEE8C /* Pods-kefaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = kefaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kefa.app/kefa";
 			};
 			name = Debug;
 		};
 		9A903DE11C943FA200362391 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF67E7636EE668374698D06 /* Pods-kefaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = kefaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kefa.app/kefa";
 			};
 			name = Release;
 		};
 		9A903DE31C943FA200362391 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139A82D0F5B9FA31D8717400 /* Pods-kefaUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = kefaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = kefa;
 				USES_XCTRUNNER = YES;
 			};
@@ -624,11 +944,13 @@
 		};
 		9A903DE41C943FA200362391 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4270AF049A5F6BF8A48E7F /* Pods-kefaUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = kefaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = kefa;
 				USES_XCTRUNNER = YES;
 			};

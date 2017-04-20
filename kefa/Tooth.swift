@@ -10,12 +10,12 @@ import UIKit
 
 class Tooth: NSObject {
     
-    var identifier: Int
+    var id: Int
     var name: String
     var status: String
     
     init(id: Int, name: String?, status: String?) {
-        self.identifier = id
+        self.id = id
         self.name = name != nil ? name! : ""
         self.status = status != nil ? status! : ""
         super.init()
