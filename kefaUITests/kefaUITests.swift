@@ -2,8 +2,8 @@
 //  kefaUITests.swift
 //  kefaUITests
 //
-//  Created by Pietro Santececca on 12/03/16.
-//  Copyright © 2016 Pietro Santececca. All rights reserved.
+//  Created by Pietro Santececca on 20/04/17.
+//  Copyright © 2017 Pietro Santececca. All rights reserved.
 //
 
 import XCTest
@@ -33,21 +33,13 @@ class kefaUITests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
         
         
+        let element = XCUIApplication().children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
+        element.children(matching: .other).element(boundBy: 145).tap()
+        element.children(matching: .other).element(boundBy: 274).tap()
+        element.children(matching: .other).element(boundBy: 636).tap()
+        element.children(matching: .other).element(boundBy: 635).press(forDuration: 7.0);
         
-        let app = XCUIApplication()
-        let element = app.children(matching: .window).element(boundBy: 0).children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element.children(matching: .other).element
-        let image = element.children(matching: .image).element(boundBy: 1)
-        image.tap()
-        element.children(matching: .other).element(boundBy: 72).tap()
-        element.children(matching: .other).element(boundBy: 74).swipeRight()
-        element.children(matching: .other).element(boundBy: 204).tap()
-        element.children(matching: .image).element(boundBy: 0).swipeLeft()
-        image.swipeLeft()
-        element.children(matching: .other).element(boundBy: 327).tap()
-        element.children(matching: .button).element.tap()
-        app.navigationBars["Title"].buttons["backArrow"].tap()
-        
-        
+        XCTAssertGreaterThan(XCUIApplication().buttons.count, 0)
     }
     
 }

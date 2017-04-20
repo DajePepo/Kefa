@@ -7,98 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D6746B92709C32B27468171 /* Pods_kefaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B430EF842A05861BDEB8E /* Pods_kefaUITests.framework */; };
-		8650D47B23D32F2431B5E603 /* Pods_kefaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB909BA3E84522360807E3A /* Pods_kefaTests.framework */; };
 		9A06E01B1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */; };
-		9A06E01C1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */; };
-		9A06E01D1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */; };
 		9A2EF2D41E575F2B0046748D /* ToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D31E575F2B0046748D /* ToothViewModel.swift */; };
-		9A2EF2D51E575F2B0046748D /* ToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D31E575F2B0046748D /* ToothViewModel.swift */; };
-		9A2EF2D61E575F2B0046748D /* ToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D31E575F2B0046748D /* ToothViewModel.swift */; };
 		9A2EF2D81E575F660046748D /* SelectToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D71E575F660046748D /* SelectToothViewModel.swift */; };
-		9A2EF2D91E575F660046748D /* SelectToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D71E575F660046748D /* SelectToothViewModel.swift */; };
-		9A2EF2DA1E575F660046748D /* SelectToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D71E575F660046748D /* SelectToothViewModel.swift */; };
 		9A2EF2E01E576A030046748D /* TeethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2DF1E576A030046748D /* TeethViewController.swift */; };
-		9A2EF2E11E576A030046748D /* TeethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2DF1E576A030046748D /* TeethViewController.swift */; };
-		9A2EF2E21E576A030046748D /* TeethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2DF1E576A030046748D /* TeethViewController.swift */; };
-		9A2EF2E31E576B400046748D /* SelectToothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903DB91C943FA200362391 /* SelectToothViewController.swift */; };
-		9A2EF2E41E576B400046748D /* SelectToothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903DB91C943FA200362391 /* SelectToothViewController.swift */; };
 		9A2EF2E71E5772810046748D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2E61E5772810046748D /* UIViewControllerExtension.swift */; };
-		9A2EF2E81E5772810046748D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2E61E5772810046748D /* UIViewControllerExtension.swift */; };
-		9A2EF2E91E5772810046748D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2E61E5772810046748D /* UIViewControllerExtension.swift */; };
 		9A2EF2EB1E57772C0046748D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EA1E57772C0046748D /* CustomTabBarController.swift */; };
-		9A2EF2EC1E57772C0046748D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EA1E57772C0046748D /* CustomTabBarController.swift */; };
-		9A2EF2ED1E57772C0046748D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EA1E57772C0046748D /* CustomTabBarController.swift */; };
 		9A2EF2EF1E577D590046748D /* DashLineShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EE1E577D590046748D /* DashLineShapeLayer.swift */; };
-		9A2EF2F01E577D590046748D /* DashLineShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EE1E577D590046748D /* DashLineShapeLayer.swift */; };
-		9A2EF2F11E577D590046748D /* DashLineShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EE1E577D590046748D /* DashLineShapeLayer.swift */; };
 		9A2EF2F41E5D00B80046748D /* TeethDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2F31E5D00B80046748D /* TeethDataManager.swift */; };
-		9A2EF2F51E5D00B80046748D /* TeethDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2F31E5D00B80046748D /* TeethDataManager.swift */; };
-		9A2EF2F61E5D00B80046748D /* TeethDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2F31E5D00B80046748D /* TeethDataManager.swift */; };
 		9A3DA92A1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */; };
-		9A3DA92B1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */; };
-		9A3DA92C1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */; };
 		9A5A8DEC1C9F114700DCA409 /* Tooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DEB1C9F114700DCA409 /* Tooth.swift */; };
-		9A5A8DED1C9F114700DCA409 /* Tooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DEB1C9F114700DCA409 /* Tooth.swift */; };
-		9A5A8DEE1C9F114700DCA409 /* Tooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DEB1C9F114700DCA409 /* Tooth.swift */; };
 		9A5A8DF21C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */; };
-		9A5A8DF31C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */; };
-		9A5A8DF41C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */; };
+		9A63CB9D1EA8E24D0007D962 /* kefaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63CB9C1EA8E24D0007D962 /* kefaUITests.swift */; };
+		9A63CBAB1EA8E26B0007D962 /* kefaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63CBAA1EA8E26B0007D962 /* kefaTests.swift */; };
 		9A903DB81C943FA200362391 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903DB71C943FA200362391 /* AppDelegate.swift */; };
 		9A903DBA1C943FA200362391 /* SelectToothViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903DB91C943FA200362391 /* SelectToothViewController.swift */; };
 		9A903DBD1C943FA200362391 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DBB1C943FA200362391 /* Main.storyboard */; };
 		9A903DBF1C943FA200362391 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DBE1C943FA200362391 /* Assets.xcassets */; };
 		9A903DC21C943FA200362391 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DC01C943FA200362391 /* LaunchScreen.storyboard */; };
-		9A903DCD1C943FA200362391 /* kefaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903DCC1C943FA200362391 /* kefaTests.swift */; };
-		9A903DD81C943FA200362391 /* kefaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A903DD71C943FA200362391 /* kefaUITests.swift */; };
 		9A903DEE1C94553D00362391 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE61C94553D00362391 /* Montserrat-Black.otf */; };
-		9A903DEF1C94553D00362391 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE61C94553D00362391 /* Montserrat-Black.otf */; };
-		9A903DF01C94553D00362391 /* Montserrat-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE61C94553D00362391 /* Montserrat-Black.otf */; };
 		9A903DF11C94553D00362391 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE71C94553D00362391 /* Montserrat-Bold.otf */; };
-		9A903DF21C94553D00362391 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE71C94553D00362391 /* Montserrat-Bold.otf */; };
-		9A903DF31C94553D00362391 /* Montserrat-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE71C94553D00362391 /* Montserrat-Bold.otf */; };
 		9A903DF41C94553D00362391 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE81C94553D00362391 /* Montserrat-ExtraBold.otf */; };
-		9A903DF51C94553D00362391 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE81C94553D00362391 /* Montserrat-ExtraBold.otf */; };
-		9A903DF61C94553D00362391 /* Montserrat-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE81C94553D00362391 /* Montserrat-ExtraBold.otf */; };
 		9A903DF71C94553D00362391 /* Montserrat-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE91C94553D00362391 /* Montserrat-Hairline.otf */; };
-		9A903DF81C94553D00362391 /* Montserrat-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE91C94553D00362391 /* Montserrat-Hairline.otf */; };
-		9A903DF91C94553D00362391 /* Montserrat-Hairline.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DE91C94553D00362391 /* Montserrat-Hairline.otf */; };
 		9A903DFA1C94553D00362391 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DEA1C94553D00362391 /* Montserrat-Light.otf */; };
-		9A903DFB1C94553D00362391 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DEA1C94553D00362391 /* Montserrat-Light.otf */; };
-		9A903DFC1C94553D00362391 /* Montserrat-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DEA1C94553D00362391 /* Montserrat-Light.otf */; };
 		9A903DFD1C94553D00362391 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DEB1C94553D00362391 /* Montserrat-Regular.otf */; };
-		9A903DFE1C94553D00362391 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DEB1C94553D00362391 /* Montserrat-Regular.otf */; };
-		9A903DFF1C94553D00362391 /* Montserrat-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DEB1C94553D00362391 /* Montserrat-Regular.otf */; };
 		9A903E001C94553D00362391 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DEC1C94553D00362391 /* Montserrat-SemiBold.otf */; };
-		9A903E011C94553D00362391 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DEC1C94553D00362391 /* Montserrat-SemiBold.otf */; };
-		9A903E021C94553D00362391 /* Montserrat-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DEC1C94553D00362391 /* Montserrat-SemiBold.otf */; };
 		9A903E031C94553D00362391 /* Montserrat-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DED1C94553D00362391 /* Montserrat-UltraLight.otf */; };
-		9A903E041C94553D00362391 /* Montserrat-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DED1C94553D00362391 /* Montserrat-UltraLight.otf */; };
-		9A903E051C94553D00362391 /* Montserrat-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9A903DED1C94553D00362391 /* Montserrat-UltraLight.otf */; };
 		9A9A8DA91C945E190095DFCD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A8DA81C945E190095DFCD /* Util.swift */; };
-		9A9A8DAA1C945E190095DFCD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A8DA81C945E190095DFCD /* Util.swift */; };
-		9A9A8DAB1C945E190095DFCD /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A8DA81C945E190095DFCD /* Util.swift */; };
 		9A9A8DAD1C95BAC20095DFCD /* ToothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A8DAC1C95BAC20095DFCD /* ToothView.swift */; };
-		9A9A8DAE1C95BAC20095DFCD /* ToothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A8DAC1C95BAC20095DFCD /* ToothView.swift */; };
-		9A9A8DAF1C95BAC20095DFCD /* ToothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A8DAC1C95BAC20095DFCD /* ToothView.swift */; };
 		9AB31E1B1CBBE1DF006EBFEE /* BracesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31E1A1CBBE1DF006EBFEE /* BracesView.swift */; };
-		9AB31E1C1CBBE1DF006EBFEE /* BracesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31E1A1CBBE1DF006EBFEE /* BracesView.swift */; };
-		9AB31E1D1CBBE1DF006EBFEE /* BracesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31E1A1CBBE1DF006EBFEE /* BracesView.swift */; };
 		9AB31E1F1CBBFBC7006EBFEE /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */; };
-		9AB31E201CBBFBC7006EBFEE /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */; };
-		9AB31E211CBBFBC7006EBFEE /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */; };
 		F2C392B8F431586402730D4E /* Pods_kefa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4610AA91A7611D6CDB4C3DB /* Pods_kefa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9A903DC91C943FA200362391 /* PBXContainerItemProxy */ = {
+		9A63CB9F1EA8E24D0007D962 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9A903DAC1C943FA100362391 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9A903DB31C943FA100362391;
 			remoteInfo = kefa;
 		};
-		9A903DD41C943FA200362391 /* PBXContainerItemProxy */ = {
+		9A63CBAD1EA8E26B0007D962 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 9A903DAC1C943FA100362391 /* Project object */;
 			proxyType = 1;
@@ -125,6 +75,12 @@
 		9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		9A5A8DEB1C9F114700DCA409 /* Tooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tooth.swift; sourceTree = "<group>"; };
 		9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToothDetailViewController.swift; sourceTree = "<group>"; };
+		9A63CB9A1EA8E24D0007D962 /* kefaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kefaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A63CB9C1EA8E24D0007D962 /* kefaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kefaUITests.swift; sourceTree = "<group>"; };
+		9A63CB9E1EA8E24D0007D962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A63CBA81EA8E26B0007D962 /* kefaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kefaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A63CBAA1EA8E26B0007D962 /* kefaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kefaTests.swift; sourceTree = "<group>"; };
+		9A63CBAC1EA8E26B0007D962 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A903DB41C943FA200362391 /* kefa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kefa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A903DB71C943FA200362391 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A903DB91C943FA200362391 /* SelectToothViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectToothViewController.swift; sourceTree = "<group>"; };
@@ -132,12 +88,6 @@
 		9A903DBE1C943FA200362391 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A903DC11C943FA200362391 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A903DC31C943FA200362391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A903DC81C943FA200362391 /* kefaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kefaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A903DCC1C943FA200362391 /* kefaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kefaTests.swift; sourceTree = "<group>"; };
-		9A903DCE1C943FA200362391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A903DD31C943FA200362391 /* kefaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kefaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9A903DD71C943FA200362391 /* kefaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = kefaUITests.swift; sourceTree = "<group>"; };
-		9A903DD91C943FA200362391 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A903DE61C94553D00362391 /* Montserrat-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Black.otf"; sourceTree = "<group>"; };
 		9A903DE71C94553D00362391 /* Montserrat-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.otf"; sourceTree = "<group>"; };
 		9A903DE81C94553D00362391 /* Montserrat-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-ExtraBold.otf"; sourceTree = "<group>"; };
@@ -156,27 +106,25 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		9A63CB971EA8E24D0007D962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A63CBA51EA8E26B0007D962 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A903DB11C943FA100362391 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F2C392B8F431586402730D4E /* Pods_kefa.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A903DC51C943FA200362391 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8650D47B23D32F2431B5E603 /* Pods_kefaTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A903DD01C943FA200362391 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5D6746B92709C32B27468171 /* Pods_kefaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,12 +204,30 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		9A63CB9B1EA8E24D0007D962 /* kefaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A63CB9C1EA8E24D0007D962 /* kefaUITests.swift */,
+				9A63CB9E1EA8E24D0007D962 /* Info.plist */,
+			);
+			path = kefaUITests;
+			sourceTree = "<group>";
+		};
+		9A63CBA91EA8E26B0007D962 /* kefaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A63CBAA1EA8E26B0007D962 /* kefaTests.swift */,
+				9A63CBAC1EA8E26B0007D962 /* Info.plist */,
+			);
+			path = kefaTests;
+			sourceTree = "<group>";
+		};
 		9A903DAB1C943FA100362391 = {
 			isa = PBXGroup;
 			children = (
 				9A903DB61C943FA200362391 /* kefa */,
-				9A903DCB1C943FA200362391 /* kefaTests */,
-				9A903DD61C943FA200362391 /* kefaUITests */,
+				9A63CBA91EA8E26B0007D962 /* kefaTests */,
+				9A63CB9B1EA8E24D0007D962 /* kefaUITests */,
 				9A903DB51C943FA200362391 /* Products */,
 				FF16CBDAF0426B6120A05C8F /* Pods */,
 				1BD52E2E454C45EA1EF8B4C7 /* Frameworks */,
@@ -272,8 +238,8 @@
 			isa = PBXGroup;
 			children = (
 				9A903DB41C943FA200362391 /* kefa.app */,
-				9A903DC81C943FA200362391 /* kefaTests.xctest */,
-				9A903DD31C943FA200362391 /* kefaUITests.xctest */,
+				9A63CB9A1EA8E24D0007D962 /* kefaUITests.xctest */,
+				9A63CBA81EA8E26B0007D962 /* kefaTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -293,24 +259,6 @@
 				9A2EF2D11E5494F50046748D /* Supporting Files */,
 			);
 			path = kefa;
-			sourceTree = "<group>";
-		};
-		9A903DCB1C943FA200362391 /* kefaTests */ = {
-			isa = PBXGroup;
-			children = (
-				9A903DCC1C943FA200362391 /* kefaTests.swift */,
-				9A903DCE1C943FA200362391 /* Info.plist */,
-			);
-			path = kefaTests;
-			sourceTree = "<group>";
-		};
-		9A903DD61C943FA200362391 /* kefaUITests */ = {
-			isa = PBXGroup;
-			children = (
-				9A903DD71C943FA200362391 /* kefaUITests.swift */,
-				9A903DD91C943FA200362391 /* Info.plist */,
-			);
-			path = kefaUITests;
 			sourceTree = "<group>";
 		};
 		9A903DE51C94550D00362391 /* Font */ = {
@@ -365,6 +313,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		9A63CB991EA8E24D0007D962 /* kefaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A63CBA11EA8E24D0007D962 /* Build configuration list for PBXNativeTarget "kefaUITests" */;
+			buildPhases = (
+				9A63CB961EA8E24D0007D962 /* Sources */,
+				9A63CB971EA8E24D0007D962 /* Frameworks */,
+				9A63CB981EA8E24D0007D962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A63CBA01EA8E24D0007D962 /* PBXTargetDependency */,
+			);
+			name = kefaUITests;
+			productName = kefaUITests;
+			productReference = 9A63CB9A1EA8E24D0007D962 /* kefaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9A63CBA71EA8E26B0007D962 /* kefaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A63CBAF1EA8E26B0007D962 /* Build configuration list for PBXNativeTarget "kefaTests" */;
+			buildPhases = (
+				9A63CBA41EA8E26B0007D962 /* Sources */,
+				9A63CBA51EA8E26B0007D962 /* Frameworks */,
+				9A63CBA61EA8E26B0007D962 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A63CBAE1EA8E26B0007D962 /* PBXTargetDependency */,
+			);
+			name = kefaTests;
+			productName = kefaTests;
+			productReference = 9A63CBA81EA8E26B0007D962 /* kefaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		9A903DB31C943FA100362391 /* kefa */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A903DDC1C943FA200362391 /* Build configuration list for PBXNativeTarget "kefa" */;
@@ -385,72 +369,32 @@
 			productReference = 9A903DB41C943FA200362391 /* kefa.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9A903DC71C943FA200362391 /* kefaTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A903DDF1C943FA200362391 /* Build configuration list for PBXNativeTarget "kefaTests" */;
-			buildPhases = (
-				701FD4AD25044B4CCB4218F7 /* [CP] Check Pods Manifest.lock */,
-				9A903DC41C943FA200362391 /* Sources */,
-				9A903DC51C943FA200362391 /* Frameworks */,
-				9A903DC61C943FA200362391 /* Resources */,
-				0071E1F40D9F3A32CEB22E6A /* [CP] Embed Pods Frameworks */,
-				4AA5C2C8C0A228632A3828A0 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9A903DCA1C943FA200362391 /* PBXTargetDependency */,
-			);
-			name = kefaTests;
-			productName = kefaTests;
-			productReference = 9A903DC81C943FA200362391 /* kefaTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		9A903DD21C943FA200362391 /* kefaUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9A903DE21C943FA200362391 /* Build configuration list for PBXNativeTarget "kefaUITests" */;
-			buildPhases = (
-				7806F91AF68E6414A0CF2025 /* [CP] Check Pods Manifest.lock */,
-				9A903DCF1C943FA200362391 /* Sources */,
-				9A903DD01C943FA200362391 /* Frameworks */,
-				9A903DD11C943FA200362391 /* Resources */,
-				E1932F3331A3246F4F266913 /* [CP] Embed Pods Frameworks */,
-				B7D82D54A089225C57BC9BD1 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				9A903DD51C943FA200362391 /* PBXTargetDependency */,
-			);
-			name = kefaUITests;
-			productName = kefaUITests;
-			productReference = 9A903DD31C943FA200362391 /* kefaUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		9A903DAC1C943FA100362391 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Pietro Santececca";
 				TargetAttributes = {
+					9A63CB991EA8E24D0007D962 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = A5KJ3Z3G6S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A903DB31C943FA100362391;
+					};
+					9A63CBA71EA8E26B0007D962 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = A5KJ3Z3G6S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A903DB31C943FA100362391;
+					};
 					9A903DB31C943FA100362391 = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = RQW2C3NG99;
 						LastSwiftMigration = 0800;
-					};
-					9A903DC71C943FA200362391 = {
-						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0800;
-						TestTargetID = 9A903DB31C943FA100362391;
-					};
-					9A903DD21C943FA200362391 = {
-						CreatedOnToolsVersion = 7.2.1;
-						LastSwiftMigration = 0800;
-						TestTargetID = 9A903DB31C943FA100362391;
 					};
 				};
 			};
@@ -468,13 +412,27 @@
 			projectRoot = "";
 			targets = (
 				9A903DB31C943FA100362391 /* kefa */,
-				9A903DC71C943FA200362391 /* kefaTests */,
-				9A903DD21C943FA200362391 /* kefaUITests */,
+				9A63CBA71EA8E26B0007D962 /* kefaTests */,
+				9A63CB991EA8E24D0007D962 /* kefaUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		9A63CB981EA8E24D0007D962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A63CBA61EA8E26B0007D962 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A903DB21C943FA100362391 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -493,54 +451,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A903DC61C943FA200362391 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A903DFB1C94553D00362391 /* Montserrat-Light.otf in Resources */,
-				9A903E011C94553D00362391 /* Montserrat-SemiBold.otf in Resources */,
-				9A903DF51C94553D00362391 /* Montserrat-ExtraBold.otf in Resources */,
-				9A903DEF1C94553D00362391 /* Montserrat-Black.otf in Resources */,
-				9A903E041C94553D00362391 /* Montserrat-UltraLight.otf in Resources */,
-				9A903DF81C94553D00362391 /* Montserrat-Hairline.otf in Resources */,
-				9A903DF21C94553D00362391 /* Montserrat-Bold.otf in Resources */,
-				9A903DFE1C94553D00362391 /* Montserrat-Regular.otf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A903DD11C943FA200362391 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A903DFC1C94553D00362391 /* Montserrat-Light.otf in Resources */,
-				9A903E021C94553D00362391 /* Montserrat-SemiBold.otf in Resources */,
-				9A903DF61C94553D00362391 /* Montserrat-ExtraBold.otf in Resources */,
-				9A903DF01C94553D00362391 /* Montserrat-Black.otf in Resources */,
-				9A903E051C94553D00362391 /* Montserrat-UltraLight.otf in Resources */,
-				9A903DF91C94553D00362391 /* Montserrat-Hairline.otf in Resources */,
-				9A903DF31C94553D00362391 /* Montserrat-Bold.otf in Resources */,
-				9A903DFF1C94553D00362391 /* Montserrat-Regular.otf in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0071E1F40D9F3A32CEB22E6A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaTests/Pods-kefaTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		0C4130AA64D3C9E00839F35D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -571,66 +484,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefa/Pods-kefa-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4AA5C2C8C0A228632A3828A0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaTests/Pods-kefaTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		701FD4AD25044B4CCB4218F7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		7806F91AF68E6414A0CF2025 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B7D82D54A089225C57BC9BD1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaUITests/Pods-kefaUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		DC8D8A58D47295486282D334 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -646,24 +499,25 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefa/Pods-kefa-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E1932F3331A3246F4F266913 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaUITests/Pods-kefaUITests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9A63CB961EA8E24D0007D962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A63CB9D1EA8E24D0007D962 /* kefaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A63CBA41EA8E26B0007D962 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A63CBAB1EA8E26B0007D962 /* kefaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9A903DB01C943FA100362391 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -688,66 +542,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9A903DC41C943FA200362391 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A2EF2F51E5D00B80046748D /* TeethDataManager.swift in Sources */,
-				9A5A8DF31C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */,
-				9A5A8DED1C9F114700DCA409 /* Tooth.swift in Sources */,
-				9AB31E1C1CBBE1DF006EBFEE /* BracesView.swift in Sources */,
-				9A2EF2D51E575F2B0046748D /* ToothViewModel.swift in Sources */,
-				9A903DCD1C943FA200362391 /* kefaTests.swift in Sources */,
-				9A06E01C1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */,
-				9A2EF2E11E576A030046748D /* TeethViewController.swift in Sources */,
-				9A2EF2F01E577D590046748D /* DashLineShapeLayer.swift in Sources */,
-				9A9A8DAA1C945E190095DFCD /* Util.swift in Sources */,
-				9A2EF2EC1E57772C0046748D /* CustomTabBarController.swift in Sources */,
-				9AB31E201CBBFBC7006EBFEE /* MouthView.swift in Sources */,
-				9A2EF2E81E5772810046748D /* UIViewControllerExtension.swift in Sources */,
-				9A9A8DAE1C95BAC20095DFCD /* ToothView.swift in Sources */,
-				9A2EF2D91E575F660046748D /* SelectToothViewModel.swift in Sources */,
-				9A3DA92B1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */,
-				9A2EF2E31E576B400046748D /* SelectToothViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9A903DCF1C943FA200362391 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9A2EF2F61E5D00B80046748D /* TeethDataManager.swift in Sources */,
-				9A5A8DF41C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */,
-				9A5A8DEE1C9F114700DCA409 /* Tooth.swift in Sources */,
-				9AB31E1D1CBBE1DF006EBFEE /* BracesView.swift in Sources */,
-				9A2EF2D61E575F2B0046748D /* ToothViewModel.swift in Sources */,
-				9A903DD81C943FA200362391 /* kefaUITests.swift in Sources */,
-				9A06E01D1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */,
-				9A2EF2E21E576A030046748D /* TeethViewController.swift in Sources */,
-				9A2EF2F11E577D590046748D /* DashLineShapeLayer.swift in Sources */,
-				9A9A8DAB1C945E190095DFCD /* Util.swift in Sources */,
-				9A2EF2ED1E57772C0046748D /* CustomTabBarController.swift in Sources */,
-				9AB31E211CBBFBC7006EBFEE /* MouthView.swift in Sources */,
-				9A2EF2E91E5772810046748D /* UIViewControllerExtension.swift in Sources */,
-				9A9A8DAF1C95BAC20095DFCD /* ToothView.swift in Sources */,
-				9A2EF2DA1E575F660046748D /* SelectToothViewModel.swift in Sources */,
-				9A3DA92C1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */,
-				9A2EF2E41E576B400046748D /* SelectToothViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		9A903DCA1C943FA200362391 /* PBXTargetDependency */ = {
+		9A63CBA01EA8E24D0007D962 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9A903DB31C943FA100362391 /* kefa */;
-			targetProxy = 9A903DC91C943FA200362391 /* PBXContainerItemProxy */;
+			targetProxy = 9A63CB9F1EA8E24D0007D962 /* PBXContainerItemProxy */;
 		};
-		9A903DD51C943FA200362391 /* PBXTargetDependency */ = {
+		9A63CBAE1EA8E26B0007D962 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 9A903DB31C943FA100362391 /* kefa */;
-			targetProxy = 9A903DD41C943FA200362391 /* PBXContainerItemProxy */;
+			targetProxy = 9A63CBAD1EA8E26B0007D962 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -771,6 +577,88 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		9A63CBA21EA8E24D0007D962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				INFOPLIST_FILE = kefaUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kefa;
+			};
+			name = Debug;
+		};
+		9A63CBA31EA8E24D0007D962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				INFOPLIST_FILE = kefaUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = kefa;
+			};
+			name = Release;
+		};
+		9A63CBB01EA8E26B0007D962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				INFOPLIST_FILE = kefaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kefa.app/kefa";
+			};
+			name = Debug;
+		};
+		9A63CBB11EA8E26B0007D962 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
+				INFOPLIST_FILE = kefaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kefa.app/kefa";
+			};
+			name = Release;
+		};
 		9A903DDA1C943FA200362391 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -900,65 +788,25 @@
 			};
 			name = Release;
 		};
-		9A903DE01C943FA200362391 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3FE852FC9E15D58EC0DAEE8C /* Pods-kefaTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = kefaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kefa.app/kefa";
-			};
-			name = Debug;
-		};
-		9A903DE11C943FA200362391 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4EF67E7636EE668374698D06 /* Pods-kefaTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = kefaTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kefa.app/kefa";
-			};
-			name = Release;
-		};
-		9A903DE31C943FA200362391 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 139A82D0F5B9FA31D8717400 /* Pods-kefaUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = kefaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = kefa;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		9A903DE41C943FA200362391 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A4270AF049A5F6BF8A48E7F /* Pods-kefaUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = kefaUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefaUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = kefa;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		9A63CBA11EA8E24D0007D962 /* Build configuration list for PBXNativeTarget "kefaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A63CBA21EA8E24D0007D962 /* Debug */,
+				9A63CBA31EA8E24D0007D962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A63CBAF1EA8E26B0007D962 /* Build configuration list for PBXNativeTarget "kefaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A63CBB01EA8E26B0007D962 /* Debug */,
+				9A63CBB11EA8E26B0007D962 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		9A903DAF1C943FA100362391 /* Build configuration list for PBXProject "kefa" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -973,24 +821,6 @@
 			buildConfigurations = (
 				9A903DDD1C943FA200362391 /* Debug */,
 				9A903DDE1C943FA200362391 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A903DDF1C943FA200362391 /* Build configuration list for PBXNativeTarget "kefaTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A903DE01C943FA200362391 /* Debug */,
-				9A903DE11C943FA200362391 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9A903DE21C943FA200362391 /* Build configuration list for PBXNativeTarget "kefaUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9A903DE31C943FA200362391 /* Debug */,
-				9A903DE41C943FA200362391 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

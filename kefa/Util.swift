@@ -45,11 +45,11 @@ class Util: NSObject {
     }
     
     static func degreesToRadians(_ degrees: Double) -> Double {
-        return degrees * M_PI / 180
+        return degrees * .pi / 180
     }
     
     static func radiansToDegrees(_ radians: Double) -> Double {
-        return radians * 180 / M_PI
+        return radians * 180 / .pi
     }
     
     static func getScreenWidth() -> CGFloat {

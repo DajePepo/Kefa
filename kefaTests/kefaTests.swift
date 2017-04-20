@@ -2,12 +2,11 @@
 //  kefaTests.swift
 //  kefaTests
 //
-//  Created by Pietro Santececca on 12/03/16.
-//  Copyright © 2016 Pietro Santececca. All rights reserved.
+//  Created by Pietro Santececca on 20/04/17.
+//  Copyright © 2017 Pietro Santececca. All rights reserved.
 //
 
 import XCTest
-@testable import kefa
 
 class kefaTests: XCTestCase {
     
