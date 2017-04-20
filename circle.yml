@@ -3,10 +3,11 @@ machine:
     version: 8.2
   environment:
     GYM_CODE_SIGNING_IDENTITY: "iPhone Developer: Pietro Santececca (E65773GTG7)"
+    GYM_USE_LEGACY_BUILD_API: false
 
 deployment:
   beta_distribution:
     branch: master
     commands:
-      - fastlane gym(use_legacy_build_api: true)
+      - fastlane gym
       - ipa distribute:itunesconnect -i 1228817345 --upload --verbose
