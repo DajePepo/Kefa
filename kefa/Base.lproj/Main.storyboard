@@ -43,7 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VZx-L2-GVu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3716" y="377"/>
+            <point key="canvasLocation" x="2670" y="411"/>
         </scene>
         <!--Teeth View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -115,7 +115,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <segue destination="OBA-oR-tXC" kind="show" id="RwS-64-5hx"/>
+                        <segue destination="OBA-oR-tXC" kind="show" identifier="fromTeethViewToToothDetail" id="RwS-64-5hx"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -144,7 +144,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mbf-v8-xDj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1093" y="378"/>
+            <point key="canvasLocation" x="1330" y="411"/>
         </scene>
         <!--Appuntamenti-->
         <scene sceneID="FS1-YQ-cKl">
@@ -163,7 +163,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hJ4-fR-elq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1093" y="1200"/>
+            <point key="canvasLocation" x="1341" y="1366"/>
         </scene>
         <!--Interventi-->
         <scene sceneID="avX-K3-Ka1">
@@ -182,7 +182,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fve-wq-qRF" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1094" y="2009"/>
+            <point key="canvasLocation" x="1341" y="2365"/>
         </scene>
         <!--Dentisti-->
         <scene sceneID="KkR-mg-LBO">
@@ -201,7 +201,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nAJ-uz-0Ot" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1086" y="2817"/>
+            <point key="canvasLocation" x="1341" y="3327"/>
         </scene>
         <!--Custom Tab Bar Controller-->
         <scene sceneID="TQK-bH-Lru">
@@ -223,7 +223,7 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y0c-XA-gFg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="326" y="378"/>
+            <point key="canvasLocation" x="526" y="411"/>
         </scene>
         <!--Tooth Preview View Controller-->
         <scene sceneID="fx7-IH-vF2">
@@ -238,7 +238,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seleziona un dente" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0cM-S4-j7v">
-                                <rect key="frame" x="15" y="69" width="149" height="41.666666666666671"/>
+                                <rect key="frame" x="15" y="69.333333333333314" width="149" height="41.666666666666671"/>
                                 <fontDescription key="fontDescription" name="Montserrat-SemiBold" family="Montserrat" pointSize="17"/>
                                 <color key="textColor" red="0.30980392159999998" green="0.82352941180000006" blue="0.76078431369999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -290,7 +290,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gX3-fh-iqd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2802.1739130434785" y="1661.8206521739132"/>
+            <point key="canvasLocation" x="2380" y="1310"/>
         </scene>
         <!--Select Tooth View Controller-->
         <scene sceneID="s9s-06-9Ng">
@@ -396,7 +396,7 @@
                     </connections>
                 </panGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2804" y="1200"/>
+            <point key="canvasLocation" x="1937" y="1310"/>
         </scene>
     </scenes>
     <resources>

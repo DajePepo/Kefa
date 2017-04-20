@@ -7,8 +7,8 @@ target 'kefa' do
 
   # Pods for kefa
   pod 'RealmSwift'
-  pod 'ReactiveCocoa', '~> 5.0.0'
-  pod 'ReactiveSwift', '~> 1.0.0'
+  pod 'ReactiveCocoa'
+  pod 'ReactiveSwift'
 
   # Pods for testing
   target 'kefaTests' do
@@ -20,12 +20,4 @@ target 'kefa' do
     inherit! :search_paths
   end
 
-end
-
-post_install do |installer|
-    installer.pods_project.targets.each do |target|
-        target.build_configurations.each do |config|
-            config.build_settings['SWIFT_VERSION'] = '3.0'
-        end
-    end
 end
