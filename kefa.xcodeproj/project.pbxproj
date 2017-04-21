@@ -774,15 +774,15 @@
 			baseConfigurationReference = E34D99387EF25542F71B01AB /* Pods-kefa.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Pietro Santececca (E65773GTG7)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Pietro Santececca (E65773GTG7)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Pietro Santececca (A5KJ3Z3G6S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Pietro Santececca (A5KJ3Z3G6S)";
 				DEVELOPMENT_TEAM = A5KJ3Z3G6S;
 				INFOPLIST_FILE = kefa/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tecnojam.kefa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "c312a16a-13a4-4bee-9819-5fcec3117314";
-				PROVISIONING_PROFILE_SPECIFIER = "Kefa Development";
+				PROVISIONING_PROFILE = "73944bce-4ac2-4819-8b69-c4035a1608b8";
+				PROVISIONING_PROFILE_SPECIFIER = "Kefa Distribution";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
