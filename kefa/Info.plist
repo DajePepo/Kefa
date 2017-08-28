@@ -24,6 +24,7 @@
 	<true/>
 	<key>UIAppFonts</key>
 	<array>
+        <string>FontAwesome.otf</string>
 		<string>Montserrat-Black.otf</string>
 		<string>Montserrat-Bold.otf</string>
 		<string>Montserrat-ExtraBold.otf</string>

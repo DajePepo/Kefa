@@ -9,11 +9,13 @@ PODS:
   - RealmSwift (2.6.1):
     - Realm (= 2.6.1)
   - Result (3.2.1)
+  - SkyFloatingLabelTextField (3.2.0)
 
 DEPENDENCIES:
   - ReactiveCocoa
   - ReactiveSwift
   - RealmSwift
+  - SkyFloatingLabelTextField
 
 SPEC CHECKSUMS:
   ReactiveCocoa: 066a855f613fb72f68258771095805fdb10312d2
@@ -21,7 +23,8 @@ SPEC CHECKSUMS:
   Realm: 9abfd4f87519376daa5ae3a4603155de408bf8b3
   RealmSwift: a54d3e8931cf7d3afa5a1fac9c8f88109d7f02b3
   Result: 2453a22e5c5b11c0c3a478736e82cd02f763b781
+  SkyFloatingLabelTextField: 4e2d2f7160af660ed1da6bb9d0027b5c474b4b79
 
-PODFILE CHECKSUM: 6f9a24fe687efcef363d12470328c9d7ce60746b
+PODFILE CHECKSUM: 62bcf45c0d88651c70774b349d040c942b56af2a
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1

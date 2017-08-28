@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B5F8288370084E4810913E5 /* Pods_kefaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 708B430EF842A05861BDEB8E /* Pods_kefaUITests.framework */; };
+		2722DD09E3ACA4B2F6C97B17 /* Pods_kefaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DB909BA3E84522360807E3A /* Pods_kefaTests.framework */; };
 		9A06E01B1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */; };
+		9A1215861F0BD80A00965B39 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1215851F0BD80A00965B39 /* AppCoordinator.swift */; };
+		9A1215891F0BE1B800965B39 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1215881F0BE1B800965B39 /* Coordinator.swift */; };
+		9A12158B1F0BE43700965B39 /* SelectToothCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12158A1F0BE43700965B39 /* SelectToothCoordinator.swift */; };
+		9A12158D1F0C29F900965B39 /* SelectTooth.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A12158C1F0C29F900965B39 /* SelectTooth.storyboard */; };
+		9A12158F1F0C2E0300965B39 /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A12158E1F0C2E0300965B39 /* BaseNavigationController.swift */; };
+		9A16F5421F0A351600F04B2E /* UsersCollectionViewContainer.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A16F5411F0A351600F04B2E /* UsersCollectionViewContainer.xib */; };
+		9A16F5441F0A38BF00F04B2E /* UsersCollectionViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A16F5431F0A38BF00F04B2E /* UsersCollectionViewContainer.swift */; };
+		9A16F5461F0A3A4600F04B2E /* UsersCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A16F5451F0A3A4600F04B2E /* UsersCollectionViewCell.swift */; };
+		9A16F5481F0A3A6300F04B2E /* UsersCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A16F5471F0A3A6300F04B2E /* UsersCollectionViewCell.xib */; };
 		9A2EF2D41E575F2B0046748D /* ToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D31E575F2B0046748D /* ToothViewModel.swift */; };
 		9A2EF2D81E575F660046748D /* SelectToothViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2D71E575F660046748D /* SelectToothViewModel.swift */; };
-		9A2EF2E01E576A030046748D /* TeethViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2DF1E576A030046748D /* TeethViewController.swift */; };
-		9A2EF2E71E5772810046748D /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2E61E5772810046748D /* UIViewControllerExtension.swift */; };
-		9A2EF2EB1E57772C0046748D /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EA1E57772C0046748D /* CustomTabBarController.swift */; };
+		9A2EF2EB1E57772C0046748D /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EA1E57772C0046748D /* BaseTabBarController.swift */; };
 		9A2EF2EF1E577D590046748D /* DashLineShapeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2EE1E577D590046748D /* DashLineShapeLayer.swift */; };
 		9A2EF2F41E5D00B80046748D /* TeethDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2EF2F31E5D00B80046748D /* TeethDataManager.swift */; };
-		9A3DA92A1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */; };
 		9A5A8DEC1C9F114700DCA409 /* Tooth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DEB1C9F114700DCA409 /* Tooth.swift */; };
 		9A5A8DF21C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */; };
 		9A63CB9D1EA8E24D0007D962 /* kefaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A63CB9C1EA8E24D0007D962 /* kefaUITests.swift */; };
@@ -37,6 +45,14 @@
 		9A9A8DAD1C95BAC20095DFCD /* ToothView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A9A8DAC1C95BAC20095DFCD /* ToothView.swift */; };
 		9AB31E1B1CBBE1DF006EBFEE /* BracesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31E1A1CBBE1DF006EBFEE /* BracesView.swift */; };
 		9AB31E1F1CBBFBC7006EBFEE /* MouthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */; };
+		9AE832041F058BB200AAB619 /* FontAwesome.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9AE832031F058BB200AAB619 /* FontAwesome.otf */; };
+		9AE832061F05A26300AAB619 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE832051F05A26300AAB619 /* BaseViewController.swift */; };
+		9AE832081F05A33C00AAB619 /* UserNavigationItemView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE832071F05A33C00AAB619 /* UserNavigationItemView.xib */; };
+		9AE8320A1F05ACF600AAB619 /* UserNavigationItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AE832091F05ACF600AAB619 /* UserNavigationItemView.swift */; };
+		9AF9CD341F4F24AF008406FD /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AF9CD331F4F24AE008406FD /* Login.storyboard */; };
+		9AF9CD391F5344C8008406FD /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9CD381F5344C8008406FD /* LoginViewController.swift */; };
+		9AF9CD3B1F534D33008406FD /* LoginCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9CD3A1F534D33008406FD /* LoginCoordinator.swift */; };
+		9AF9CD3D1F534DB1008406FD /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF9CD3C1F534DB1008406FD /* LoginViewModel.swift */; };
 		F2C392B8F431586402730D4E /* Pods_kefa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4610AA91A7611D6CDB4C3DB /* Pods_kefa.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,14 +81,20 @@
 		708B430EF842A05861BDEB8E /* Pods_kefaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kefaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A4270AF049A5F6BF8A48E7F /* Pods-kefaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kefaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kefaUITests/Pods-kefaUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToothPreviewViewController.swift; sourceTree = "<group>"; };
+		9A1215851F0BD80A00965B39 /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		9A1215881F0BE1B800965B39 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9A12158A1F0BE43700965B39 /* SelectToothCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectToothCoordinator.swift; sourceTree = "<group>"; };
+		9A12158C1F0C29F900965B39 /* SelectTooth.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SelectTooth.storyboard; sourceTree = "<group>"; };
+		9A12158E1F0C2E0300965B39 /* BaseNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
+		9A16F5411F0A351600F04B2E /* UsersCollectionViewContainer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsersCollectionViewContainer.xib; sourceTree = "<group>"; };
+		9A16F5431F0A38BF00F04B2E /* UsersCollectionViewContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersCollectionViewContainer.swift; sourceTree = "<group>"; };
+		9A16F5451F0A3A4600F04B2E /* UsersCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersCollectionViewCell.swift; sourceTree = "<group>"; };
+		9A16F5471F0A3A6300F04B2E /* UsersCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UsersCollectionViewCell.xib; sourceTree = "<group>"; };
 		9A2EF2D31E575F2B0046748D /* ToothViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToothViewModel.swift; sourceTree = "<group>"; };
 		9A2EF2D71E575F660046748D /* SelectToothViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectToothViewModel.swift; sourceTree = "<group>"; };
-		9A2EF2DF1E576A030046748D /* TeethViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeethViewController.swift; sourceTree = "<group>"; };
-		9A2EF2E61E5772810046748D /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
-		9A2EF2EA1E57772C0046748D /* CustomTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		9A2EF2EA1E57772C0046748D /* BaseTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
 		9A2EF2EE1E577D590046748D /* DashLineShapeLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashLineShapeLayer.swift; sourceTree = "<group>"; };
 		9A2EF2F31E5D00B80046748D /* TeethDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeethDataManager.swift; sourceTree = "<group>"; };
-		9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomNavigationController.swift; sourceTree = "<group>"; };
 		9A5A8DEB1C9F114700DCA409 /* Tooth.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tooth.swift; sourceTree = "<group>"; };
 		9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToothDetailViewController.swift; sourceTree = "<group>"; };
 		9A63CB9A1EA8E24D0007D962 /* kefaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kefaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -100,6 +122,14 @@
 		9A9A8DAC1C95BAC20095DFCD /* ToothView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToothView.swift; sourceTree = "<group>"; };
 		9AB31E1A1CBBE1DF006EBFEE /* BracesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BracesView.swift; sourceTree = "<group>"; };
 		9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MouthView.swift; sourceTree = "<group>"; };
+		9AE832031F058BB200AAB619 /* FontAwesome.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.otf; sourceTree = "<group>"; };
+		9AE832051F05A26300AAB619 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9AE832071F05A33C00AAB619 /* UserNavigationItemView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserNavigationItemView.xib; sourceTree = "<group>"; };
+		9AE832091F05ACF600AAB619 /* UserNavigationItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserNavigationItemView.swift; sourceTree = "<group>"; };
+		9AF9CD331F4F24AE008406FD /* Login.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		9AF9CD381F5344C8008406FD /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9AF9CD3A1F534D33008406FD /* LoginCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginCoordinator.swift; sourceTree = "<group>"; };
+		9AF9CD3C1F534DB1008406FD /* LoginViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		9DB909BA3E84522360807E3A /* Pods_kefaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kefaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4610AA91A7611D6CDB4C3DB /* Pods_kefa.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_kefa.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E34D99387EF25542F71B01AB /* Pods-kefa.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kefa.release.xcconfig"; path = "Pods/Target Support Files/Pods-kefa/Pods-kefa.release.xcconfig"; sourceTree = "<group>"; };
@@ -110,6 +140,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B5F8288370084E4810913E5 /* Pods_kefaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -117,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2722DD09E3ACA4B2F6C97B17 /* Pods_kefaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +173,137 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9A2EF2D01E5494C50046748D /* ViewModels */ = {
+		9A1215791F0B9DB000965B39 /* SelectToothScene */ = {
+			isa = PBXGroup;
+			children = (
+				9A12158C1F0C29F900965B39 /* SelectTooth.storyboard */,
+				9A12157C1F0B9E3400965B39 /* Coordinator */,
+				9A12157B1F0B9E2C00965B39 /* ViewModels */,
+				9A12157A1F0B9E2400965B39 /* Views */,
+			);
+			name = SelectToothScene;
+			sourceTree = "<group>";
+		};
+		9A12157A1F0B9E2400965B39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A903DB91C943FA200362391 /* SelectToothViewController.swift */,
+				9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */,
+				9A9A8DAC1C95BAC20095DFCD /* ToothView.swift */,
+				9AB31E1A1CBBE1DF006EBFEE /* BracesView.swift */,
+				9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9A12157B1F0B9E2C00965B39 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
 				9A2EF2D71E575F660046748D /* SelectToothViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		9A12157C1F0B9E3400965B39 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9A12158A1F0BE43700965B39 /* SelectToothCoordinator.swift */,
+			);
+			name = Coordinator;
+			sourceTree = "<group>";
+		};
+		9A12157D1F0B9EA000965B39 /* ToothDetailScene */ = {
+			isa = PBXGroup;
+			children = (
+				9A12157E1F0B9EB900965B39 /* Coordinator */,
+				9A12157F1F0B9EC400965B39 /* ViewModels */,
+				9A1215801F0B9ED000965B39 /* Views */,
+			);
+			name = ToothDetailScene;
+			sourceTree = "<group>";
+		};
+		9A12157E1F0B9EB900965B39 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Coordinator;
+			sourceTree = "<group>";
+		};
+		9A12157F1F0B9EC400965B39 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		9A1215801F0B9ED000965B39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9A1215811F0BD4A500965B39 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AE832091F05ACF600AAB619 /* UserNavigationItemView.swift */,
+				9AE832071F05A33C00AAB619 /* UserNavigationItemView.xib */,
+				9A16F5431F0A38BF00F04B2E /* UsersCollectionViewContainer.swift */,
+				9A16F5411F0A351600F04B2E /* UsersCollectionViewContainer.xib */,
+				9A16F5451F0A3A4600F04B2E /* UsersCollectionViewCell.swift */,
+				9A16F5471F0A3A6300F04B2E /* UsersCollectionViewCell.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9A1215821F0BD4B200965B39 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		9A1215831F0BD5C100965B39 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9A1215871F0BE1A300965B39 /* Coordinator */,
+				9A5A8DEF1C9F114F00DCA409 /* Models */,
+				9A2EF2D01E5494C50046748D /* ViewModels */,
+				9A9A8DB01C95BADA0095DFCD /* Views */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		9A1215841F0BD7F400965B39 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9A903DB71C943FA200362391 /* AppDelegate.swift */,
+				9A1215851F0BD80A00965B39 /* AppCoordinator.swift */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		9A1215871F0BE1A300965B39 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9A1215881F0BE1B800965B39 /* Coordinator.swift */,
+			);
+			name = Coordinator;
+			sourceTree = "<group>";
+		};
+		9A16F55B1F0AC72600F04B2E /* UsersToolBarScene */ = {
+			isa = PBXGroup;
+			children = (
+				9A1215821F0BD4B200965B39 /* ViewModels */,
+				9A1215811F0BD4A500965B39 /* Views */,
+			);
+			name = UsersToolBarScene;
+			sourceTree = "<group>";
+		};
+		9A2EF2D01E5494C50046748D /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
 				9A2EF2D31E575F2B0046748D /* ToothViewModel.swift */,
 			);
 			name = ViewModels;
@@ -153,7 +312,7 @@
 		9A2EF2D11E5494F50046748D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				9A903DE51C94550D00362391 /* Font */,
+				9A903DE51C94550D00362391 /* Fonts */,
 				9A903DC31C943FA200362391 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -168,12 +327,11 @@
 			name = Storyboards;
 			sourceTree = "<group>";
 		};
-		9A2EF2E51E5772540046748D /* Extenions */ = {
+		9A2EF2E51E5772540046748D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				9A2EF2E61E5772810046748D /* UIViewControllerExtension.swift */,
 			);
-			name = Extenions;
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		9A2EF2F21E5D009F0046748D /* Data Managers */ = {
@@ -182,18 +340,6 @@
 				9A2EF2F31E5D00B80046748D /* TeethDataManager.swift */,
 			);
 			name = "Data Managers";
-			sourceTree = "<group>";
-		};
-		9A3DA9281E70274500EEEC36 /* SelectTooth */ = {
-			isa = PBXGroup;
-			children = (
-				9A903DB91C943FA200362391 /* SelectToothViewController.swift */,
-				9A06E01A1D82CB6D002E2B5F /* ToothPreviewViewController.swift */,
-				9A9A8DAC1C95BAC20095DFCD /* ToothView.swift */,
-				9AB31E1A1CBBE1DF006EBFEE /* BracesView.swift */,
-				9AB31E1E1CBBFBC7006EBFEE /* MouthView.swift */,
-			);
-			name = SelectTooth;
 			sourceTree = "<group>";
 		};
 		9A5A8DEF1C9F114F00DCA409 /* Models */ = {
@@ -247,23 +393,26 @@
 		9A903DB61C943FA200362391 /* kefa */ = {
 			isa = PBXGroup;
 			children = (
-				9A903DB71C943FA200362391 /* AppDelegate.swift */,
 				9A903DBE1C943FA200362391 /* Assets.xcassets */,
+				9A1215841F0BD7F400965B39 /* Application */,
 				9A2EF2D21E5495300046748D /* Storyboards */,
-				9A5A8DEF1C9F114F00DCA409 /* Models */,
-				9A9A8DB01C95BADA0095DFCD /* Views */,
-				9A2EF2D01E5494C50046748D /* ViewModels */,
+				9A1215831F0BD5C100965B39 /* Shared */,
+				9AF9CD321F4F2493008406FD /* LoginScene */,
+				9A1215791F0B9DB000965B39 /* SelectToothScene */,
+				9A12157D1F0B9EA000965B39 /* ToothDetailScene */,
+				9A16F55B1F0AC72600F04B2E /* UsersToolBarScene */,
 				9A2EF2F21E5D009F0046748D /* Data Managers */,
 				9A9A8DA71C945DD70095DFCD /* Utilities */,
-				9A2EF2E51E5772540046748D /* Extenions */,
+				9A2EF2E51E5772540046748D /* Extensions */,
 				9A2EF2D11E5494F50046748D /* Supporting Files */,
 			);
 			path = kefa;
 			sourceTree = "<group>";
 		};
-		9A903DE51C94550D00362391 /* Font */ = {
+		9A903DE51C94550D00362391 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				9AE832031F058BB200AAB619 /* FontAwesome.otf */,
 				9A903DE61C94553D00362391 /* Montserrat-Black.otf */,
 				9A903DE71C94553D00362391 /* Montserrat-Bold.otf */,
 				9A903DE81C94553D00362391 /* Montserrat-ExtraBold.otf */,
@@ -273,7 +422,7 @@
 				9A903DEC1C94553D00362391 /* Montserrat-SemiBold.otf */,
 				9A903DED1C94553D00362391 /* Montserrat-UltraLight.otf */,
 			);
-			name = Font;
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 		9A9A8DA71C945DD70095DFCD /* Utilities */ = {
@@ -287,12 +436,45 @@
 		9A9A8DB01C95BADA0095DFCD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9A3DA9281E70274500EEEC36 /* SelectTooth */,
-				9A2EF2DF1E576A030046748D /* TeethViewController.swift */,
-				9A5A8DF11C9F2A1D00DCA409 /* ToothDetailViewController.swift */,
-				9A2EF2EA1E57772C0046748D /* CustomTabBarController.swift */,
+				9AE832051F05A26300AAB619 /* BaseViewController.swift */,
+				9A2EF2EA1E57772C0046748D /* BaseTabBarController.swift */,
+				9A12158E1F0C2E0300965B39 /* BaseNavigationController.swift */,
 				9A2EF2EE1E577D590046748D /* DashLineShapeLayer.swift */,
-				9A3DA9291E706F4300EEEC36 /* CustomNavigationController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9AF9CD321F4F2493008406FD /* LoginScene */ = {
+			isa = PBXGroup;
+			children = (
+				9AF9CD331F4F24AE008406FD /* Login.storyboard */,
+				9AF9CD351F4F24C7008406FD /* Coordinator */,
+				9AF9CD361F4F24D7008406FD /* ViewModels */,
+				9AF9CD371F4F24E0008406FD /* Views */,
+			);
+			name = LoginScene;
+			sourceTree = "<group>";
+		};
+		9AF9CD351F4F24C7008406FD /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				9AF9CD3A1F534D33008406FD /* LoginCoordinator.swift */,
+			);
+			name = Coordinator;
+			sourceTree = "<group>";
+		};
+		9AF9CD361F4F24D7008406FD /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9AF9CD3C1F534DB1008406FD /* LoginViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		9AF9CD371F4F24E0008406FD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AF9CD381F5344C8008406FD /* LoginViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -317,9 +499,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A63CBA11EA8E24D0007D962 /* Build configuration list for PBXNativeTarget "kefaUITests" */;
 			buildPhases = (
+				FC9B4532811D86941335DA58 /* [CP] Check Pods Manifest.lock */,
 				9A63CB961EA8E24D0007D962 /* Sources */,
 				9A63CB971EA8E24D0007D962 /* Frameworks */,
 				9A63CB981EA8E24D0007D962 /* Resources */,
+				4209F732A023A62F3E6E9D72 /* [CP] Embed Pods Frameworks */,
+				BA2FB667B39C3A318FBAA17F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -335,9 +520,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A63CBAF1EA8E26B0007D962 /* Build configuration list for PBXNativeTarget "kefaTests" */;
 			buildPhases = (
+				E75C226BD9DF4F6A2C0666B7 /* [CP] Check Pods Manifest.lock */,
 				9A63CBA41EA8E26B0007D962 /* Sources */,
 				9A63CBA51EA8E26B0007D962 /* Frameworks */,
 				9A63CBA61EA8E26B0007D962 /* Resources */,
+				7838C6CB6BEED1ED8625685D /* [CP] Embed Pods Frameworks */,
+				F57C975663DC5C253592D215 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -439,12 +627,18 @@
 			files = (
 				9A903DF41C94553D00362391 /* Montserrat-ExtraBold.otf in Resources */,
 				9A903E031C94553D00362391 /* Montserrat-UltraLight.otf in Resources */,
+				9AE832041F058BB200AAB619 /* FontAwesome.otf in Resources */,
 				9A903DF11C94553D00362391 /* Montserrat-Bold.otf in Resources */,
 				9A903DF71C94553D00362391 /* Montserrat-Hairline.otf in Resources */,
+				9AE832081F05A33C00AAB619 /* UserNavigationItemView.xib in Resources */,
+				9AF9CD341F4F24AF008406FD /* Login.storyboard in Resources */,
 				9A903DEE1C94553D00362391 /* Montserrat-Black.otf in Resources */,
+				9A16F5481F0A3A6300F04B2E /* UsersCollectionViewCell.xib in Resources */,
+				9A16F5421F0A351600F04B2E /* UsersCollectionViewContainer.xib in Resources */,
 				9A903DC21C943FA200362391 /* LaunchScreen.storyboard in Resources */,
 				9A903DBF1C943FA200362391 /* Assets.xcassets in Resources */,
 				9A903DBD1C943FA200362391 /* Main.storyboard in Resources */,
+				9A12158D1F0C29F900965B39 /* SelectTooth.storyboard in Resources */,
 				9A903DFA1C94553D00362391 /* Montserrat-Light.otf in Resources */,
 				9A903DFD1C94553D00362391 /* Montserrat-Regular.otf in Resources */,
 				9A903E001C94553D00362391 /* Montserrat-SemiBold.otf in Resources */,
@@ -466,7 +660,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		22B61CA91B28A881C45645B0 /* [CP] Embed Pods Frameworks */ = {
@@ -484,6 +678,51 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefa/Pods-kefa-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4209F732A023A62F3E6E9D72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaUITests/Pods-kefaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7838C6CB6BEED1ED8625685D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaTests/Pods-kefaTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA2FB667B39C3A318FBAA17F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaUITests/Pods-kefaUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		DC8D8A58D47295486282D334 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -497,6 +736,51 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefa/Pods-kefa-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E75C226BD9DF4F6A2C0666B7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F57C975663DC5C253592D215 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kefaTests/Pods-kefaTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC9B4532811D86941335DA58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -525,20 +809,28 @@
 				9A2EF2F41E5D00B80046748D /* TeethDataManager.swift in Sources */,
 				9A5A8DF21C9F2A1D00DCA409 /* ToothDetailViewController.swift in Sources */,
 				9A903DBA1C943FA200362391 /* SelectToothViewController.swift in Sources */,
+				9AF9CD391F5344C8008406FD /* LoginViewController.swift in Sources */,
 				9A06E01B1D82CB6D002E2B5F /* ToothPreviewViewController.swift in Sources */,
 				9A9A8DA91C945E190095DFCD /* Util.swift in Sources */,
+				9AF9CD3B1F534D33008406FD /* LoginCoordinator.swift in Sources */,
+				9AE832061F05A26300AAB619 /* BaseViewController.swift in Sources */,
 				9AB31E1B1CBBE1DF006EBFEE /* BracesView.swift in Sources */,
-				9A2EF2E01E576A030046748D /* TeethViewController.swift in Sources */,
 				9A2EF2D81E575F660046748D /* SelectToothViewModel.swift in Sources */,
 				9A2EF2EF1E577D590046748D /* DashLineShapeLayer.swift in Sources */,
+				9AE8320A1F05ACF600AAB619 /* UserNavigationItemView.swift in Sources */,
 				9A5A8DEC1C9F114700DCA409 /* Tooth.swift in Sources */,
-				9A2EF2EB1E57772C0046748D /* CustomTabBarController.swift in Sources */,
+				9AF9CD3D1F534DB1008406FD /* LoginViewModel.swift in Sources */,
+				9A1215861F0BD80A00965B39 /* AppCoordinator.swift in Sources */,
+				9A2EF2EB1E57772C0046748D /* BaseTabBarController.swift in Sources */,
+				9A16F5441F0A38BF00F04B2E /* UsersCollectionViewContainer.swift in Sources */,
+				9A12158B1F0BE43700965B39 /* SelectToothCoordinator.swift in Sources */,
 				9A903DB81C943FA200362391 /* AppDelegate.swift in Sources */,
-				9A2EF2E71E5772810046748D /* UIViewControllerExtension.swift in Sources */,
 				9A9A8DAD1C95BAC20095DFCD /* ToothView.swift in Sources */,
+				9A16F5461F0A3A4600F04B2E /* UsersCollectionViewCell.swift in Sources */,
+				9A12158F1F0C2E0300965B39 /* BaseNavigationController.swift in Sources */,
 				9AB31E1F1CBBFBC7006EBFEE /* MouthView.swift in Sources */,
-				9A3DA92A1E706F4300EEEC36 /* CustomNavigationController.swift in Sources */,
 				9A2EF2D41E575F2B0046748D /* ToothViewModel.swift in Sources */,
+				9A1215891F0BE1B800965B39 /* Coordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +871,7 @@
 /* Begin XCBuildConfiguration section */
 		9A63CBA21EA8E24D0007D962 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 139A82D0F5B9FA31D8717400 /* Pods-kefaUITests.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -600,6 +893,7 @@
 		};
 		9A63CBA31EA8E24D0007D962 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4270AF049A5F6BF8A48E7F /* Pods-kefaUITests.release.xcconfig */;
 			buildSettings = {
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -620,6 +914,7 @@
 		};
 		9A63CBB01EA8E26B0007D962 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE852FC9E15D58EC0DAEE8C /* Pods-kefaTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -641,6 +936,7 @@
 		};
 		9A63CBB11EA8E26B0007D962 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EF67E7636EE668374698D06 /* Pods-kefaTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -798,6 +1094,7 @@
 				9A63CBA31EA8E24D0007D962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A63CBAF1EA8E26B0007D962 /* Build configuration list for PBXNativeTarget "kefaTests" */ = {
 			isa = XCConfigurationList;
@@ -806,6 +1103,7 @@
 				9A63CBB11EA8E26B0007D962 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A903DAF1C943FA100362391 /* Build configuration list for PBXProject "kefa" */ = {
 			isa = XCConfigurationList;

@@ -9,6 +9,7 @@ target 'kefa' do
   pod 'RealmSwift'
   pod 'ReactiveCocoa'
   pod 'ReactiveSwift'
+  pod 'SkyFloatingLabelTextField'
 
   # Pods for testing
   target 'kefaTests' do

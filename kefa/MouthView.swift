@@ -37,10 +37,12 @@ class MouthView: UIView {
     
     func drawInTheView(_ view: UIView, numberOfTeeth teethNumber: Int) {
         
+        guard let topGum = topGum, let bottomGum = bottomGum else { return }
+        
         let angleInterval = 180.0 / ((Double(teethNumber) / 2) - 1)
-        let radius = topGum!.frame.size.height - 1
-        let centerSemiTopCircle = CGPoint(x: topGum!.frame.origin.x + (topGum!.frame.size.width / 2), y: topGum!.frame.origin.y + topGum!.frame.size.height)
-        let centerSemiBottomCircle = CGPoint(x: bottomGum!.frame.origin.x + (bottomGum!.frame.size.width / 2), y: bottomGum!.frame.origin.y)
+        let radius = topGum.frame.size.height - 1
+        let centerSemiTopCircle = CGPoint(x: topGum.frame.origin.x + (topGum.frame.size.width / 2), y: topGum.frame.origin.y + topGum.frame.size.height)
+        let centerSemiBottomCircle = CGPoint(x: bottomGum.frame.origin.x + (bottomGum.frame.size.width / 2), y: bottomGum.frame.origin.y)
         
         for i in 0 ..< teethNumber {
             

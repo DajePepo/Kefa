@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.otf">
+            <string>Montserrat-Light</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" restorationIdentifier="UsersCollectionViewCell" id="Eso-0V-Dxz" customClass="UsersCollectionViewCell" customModule="kefa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="126" height="155"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="126" height="155"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowProfilePicture" translatesAutoresizingMaskIntoConstraints="NO" id="bl4-ld-wUQ">
+                        <rect key="frame" x="0.0" y="0.0" width="126" height="126"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="bl4-ld-wUQ" secondAttribute="height" multiplier="1:1" id="TQ6-lq-U2d"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User name" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aWL-Ku-IHY">
+                        <rect key="frame" x="0.0" y="135" width="126" height="20"/>
+                        <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="17"/>
+                        <color key="textColor" red="0.86274509803921573" green="0.20784313725490194" blue="0.20784313725490194" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="bl4-ld-wUQ" firstAttribute="leading" secondItem="Eso-0V-Dxz" secondAttribute="leading" id="1Kb-L4-hxK"/>
+                <constraint firstItem="bl4-ld-wUQ" firstAttribute="top" secondItem="Eso-0V-Dxz" secondAttribute="top" id="BLH-mU-BEa"/>
+                <constraint firstItem="aWL-Ku-IHY" firstAttribute="leading" secondItem="Eso-0V-Dxz" secondAttribute="leading" id="aWV-pL-P54"/>
+                <constraint firstAttribute="bottom" secondItem="aWL-Ku-IHY" secondAttribute="bottom" id="jJs-FP-f5H"/>
+                <constraint firstAttribute="trailing" secondItem="bl4-ld-wUQ" secondAttribute="trailing" id="pdT-iW-Or3"/>
+                <constraint firstAttribute="trailing" secondItem="aWL-Ku-IHY" secondAttribute="trailing" id="uvI-Tw-PdG"/>
+            </constraints>
+            <size key="customSize" width="126" height="155"/>
+            <connections>
+                <outlet property="userImageLabel" destination="aWL-Ku-IHY" id="V6Y-8E-z5i"/>
+                <outlet property="userImageView" destination="bl4-ld-wUQ" id="f3g-0r-xpZ"/>
+            </connections>
+            <point key="canvasLocation" x="13" y="-236.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="yellowProfilePicture" width="402" height="402"/>
+    </resources>
+</document>

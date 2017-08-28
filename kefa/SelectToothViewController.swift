@@ -10,13 +10,13 @@ import UIKit
 import ReactiveSwift
 import ReactiveCocoa
 
-class SelectToothViewController: UIViewController, MouthDelegate {
+class SelectToothViewController: BaseViewController, MouthDelegate {
     
     // MARK: - Class Attributes
     
+    var selectToothViewModel: SelectToothViewModel?
     let mouth = MouthView()
     var lineView = DashLineView()
-    let selectToothViewModel = SelectToothViewModel()
     var toothPreviewViewController: ToothPreviewViewController?
     
     // MARK: - Interface Builder Outlet
@@ -38,28 +38,39 @@ class SelectToothViewController: UIViewController, MouthDelegate {
     
     // MARK: - App Life Cycle Methods
     
+    override func viewDidLoad() {
+        super.viewDidLoad()        
+        showUserNavigationItem = true
+    }
+
     override func viewDidLayoutSubviews() {
         setLayout()
     }
 
-    func configure() {
+    func configure(viewModel: SelectToothViewModel) {
+        
+        selectToothViewModel = viewModel
         
         // Set sub controller -> Tooth Preview View Controller
         toothPreviewViewController = childViewControllers.first as? ToothPreviewViewController
-        toothPreviewViewController?.configure(viewModel: selectToothViewModel)
+        toothPreviewViewController?.configure(viewModel: selectToothViewModel!)
         
         // Set this class as delegate for month view
         mouth.delegate = self
         
-        // Add gums in the mouth
-        mouth.topGum = topGumView
-        mouth.bottomGum = bottomGumView
-        
         // Retreive teeth
-        selectToothViewModel.retrieveTeeth()
+        selectToothViewModel!.retrieveTeeth()
     }
     
     func setLayout() {
+        
+        guard let selectToothViewModel = selectToothViewModel else {
+            return
+        }
+        
+        // Add gums in the mouth
+        mouth.topGum = topGumView
+        mouth.bottomGum = bottomGumView
         
         // Set conrner radius of central button
         toothInfoView.layer.cornerRadius = toothInfoView.frame.width / 2.0
@@ -81,6 +92,10 @@ class SelectToothViewController: UIViewController, MouthDelegate {
     // MARK: - Methods to catch user gestures
     
     @IBAction func swipeTooth(_ gesture: UIPanGestureRecognizer) {
+        
+        guard let selectToothViewModel = selectToothViewModel else {
+            return
+        }
         
         let translation = gesture.location(in: self.view)
         
@@ -109,6 +124,10 @@ class SelectToothViewController: UIViewController, MouthDelegate {
     }
     
     func tapSingleTooth(_ gesture: UITapGestureRecognizer) {
+        guard let selectToothViewModel = selectToothViewModel else {
+            return
+        }
+
         let tooth = gesture.view as! ToothView
         selectToothViewModel.setSelectedTooth(identifier: tooth.identifier)
         moveToTooth(tooth)

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FontAwesome.otf">
+            <string>FontAwesome</string>
+        </array>
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="iN0-l3-epB" customClass="UserNavigationItemView" customModule="kefa" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="240" height="35"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="TwP-4x-DWq">
+                    <rect key="frame" x="40" y="4" width="160" height="28"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="yellowProfilePicture" translatesAutoresizingMaskIntoConstraints="NO" id="KX8-2X-YEc">
+                            <rect key="frame" x="0.0" y="0.0" width="28" height="28"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="28" id="Xl9-hg-Qlr"/>
+                                <constraint firstAttribute="width" secondItem="KX8-2X-YEc" secondAttribute="height" multiplier="1:1" id="cPs-bg-sWB"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nome utente" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tt7-jc-K20">
+                            <rect key="frame" x="33" y="0.0" width="106" height="28"/>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.99998784065246582" blue="0.9999920129776001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QAo-vE-TXv">
+                            <rect key="frame" x="144" y="0.0" width="16" height="28"/>
+                            <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="16"/>
+                            <color key="textColor" red="1" green="0.99998784065246582" blue="0.9999920129776001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="TwP-4x-DWq" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Vvc-vP-E2x"/>
+                <constraint firstItem="TwP-4x-DWq" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="WgQ-Dv-XUu"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="arrowLabel" destination="QAo-vE-TXv" id="BO5-xd-YC4"/>
+                <outlet property="containerView" destination="TwP-4x-DWq" id="RC0-h2-Ocw"/>
+                <outlet property="profilePictureView" destination="KX8-2X-YEc" id="cfl-Cd-Bce"/>
+                <outlet property="userNameLabel" destination="Tt7-jc-K20" id="PJR-ow-9ud"/>
+            </connections>
+            <point key="canvasLocation" x="-87" y="-314"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="yellowProfilePicture" width="402" height="402"/>
+    </resources>
+</document>

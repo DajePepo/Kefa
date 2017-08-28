@@ -19,16 +19,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Set status bar info color to white
         UIApplication.shared.statusBarStyle = .lightContent
         
-        // Customize tab bar layout
-        let appearance = UITabBarItem.appearance()
-        let normalFontAttribute = [NSFontAttributeName : UIFont(name: "Montserrat-Bold", size: 12)!, NSForegroundColorAttributeName : UIColor(red: 228/255, green: 69/255, blue: 73/255, alpha: 1)]
-        appearance.setTitleTextAttributes(normalFontAttribute, for: UIControlState.normal)
-        let selectedFontAttribute = [NSForegroundColorAttributeName:UIColor.white]
-        appearance.setTitleTextAttributes(selectedFontAttribute, for:.selected)
+        // If the user is already logged
+        let logged = true
+        if(logged) {
+            let navBarController = BaseNavigationController()
+            window?.rootViewController = navBarController
+            
+            // Create and start the app controller
+            let coordinator = LoginCoordinator(navigationController: navBarController)
+            coordinator.start()
+        }
+        else {
+
+            // Create tab bar controller -> Set it as first view controller
+            let tabBarController = BaseTabBarController()
+            window?.rootViewController = tabBarController
+        
+            // Create and start the app controller
+            let coordinator = AppCoordinator(tabBarController: tabBarController)
+            coordinator.start()
+        }
+        
+        window?.makeKeyAndVisible()
         
         return true
     }
-
+    
     func applicationWillResignActive(_ application: UIApplication) {
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
