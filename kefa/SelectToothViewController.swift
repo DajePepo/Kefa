@@ -41,6 +41,10 @@ class SelectToothViewController: BaseViewController, MouthDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()        
         showUserNavigationItem = true
+        
+        toothPreviewViewController = childViewControllers.first as? ToothPreviewViewController
+        toothPreviewViewController?.configure(viewModel: selectToothViewModel!)
+        
     }
 
     override func viewDidLayoutSubviews() {
@@ -64,9 +68,7 @@ class SelectToothViewController: BaseViewController, MouthDelegate {
     
     func setLayout() {
         
-        guard let selectToothViewModel = selectToothViewModel else {
-            return
-        }
+        guard let selectToothViewModel = selectToothViewModel else { return }
         
         // Add gums in the mouth
         mouth.topGum = topGumView
@@ -93,9 +95,7 @@ class SelectToothViewController: BaseViewController, MouthDelegate {
     
     @IBAction func swipeTooth(_ gesture: UIPanGestureRecognizer) {
         
-        guard let selectToothViewModel = selectToothViewModel else {
-            return
-        }
+        guard let selectToothViewModel = selectToothViewModel else { return }
         
         let translation = gesture.location(in: self.view)
         
@@ -124,9 +124,7 @@ class SelectToothViewController: BaseViewController, MouthDelegate {
     }
     
     func tapSingleTooth(_ gesture: UITapGestureRecognizer) {
-        guard let selectToothViewModel = selectToothViewModel else {
-            return
-        }
+        guard let selectToothViewModel = selectToothViewModel else { return }
 
         let tooth = gesture.view as! ToothView
         selectToothViewModel.setSelectedTooth(identifier: tooth.identifier)

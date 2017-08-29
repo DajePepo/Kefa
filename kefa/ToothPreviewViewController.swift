@@ -26,6 +26,7 @@ class ToothPreviewViewController: UIViewController {
     // MARK: - Class Methods
     
     func configure(viewModel: SelectToothViewModel) {
+        
         infoLabel.isHidden = false
         toothInfoContainer.isHidden = true
         selectToothViewModel = viewModel

@@ -20,28 +20,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         UIApplication.shared.statusBarStyle = .lightContent
         
         // If the user is already logged
-        let logged = true
+        let logged = false
         if(logged) {
+            
             let navBarController = BaseNavigationController()
             window?.rootViewController = navBarController
-            
-            // Create and start the app controller
             let coordinator = LoginCoordinator(navigationController: navBarController)
             coordinator.start()
         }
         else {
 
-            // Create tab bar controller -> Set it as first view controller
             let tabBarController = BaseTabBarController()
             window?.rootViewController = tabBarController
-        
-            // Create and start the app controller
             let coordinator = AppCoordinator(tabBarController: tabBarController)
             coordinator.start()
         }
         
         window?.makeKeyAndVisible()
-        
         return true
     }
     

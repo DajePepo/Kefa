@@ -20,12 +20,12 @@ class SelectToothViewModel {
     var isTopBracesSelected = MutableProperty<Bool>(false)
     var isBottomBracesSelected = MutableProperty<Bool>(false)
     
-    // Return number of recipes in the list
+    // Return number of teeth in the list
     var teethCount: Int {
         return teethViewModelList.count
     }
     
-    // Return a specific recipe (View Model)
+    // Return a specific tooth (View Model)
     func teethViewModel(at index: Int) -> ToothViewModel? {
         if 0 ... (teethViewModelList.count - 1) ~= index { return teethViewModelList[index] }
         else { return nil }
@@ -37,7 +37,7 @@ class SelectToothViewModel {
         }
     }
     
-    // Load recipes list through the data manager
+    // Load teeth list through the data manager
     func retrieveTeeth() {
         
         //let teeth = teethDataManager.retreiveTeeth()
