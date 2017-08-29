@@ -15,10 +15,10 @@ class SelectToothViewModel {
     // Variables
     let teethDataManager = TeethDataManager()
     var teethViewModelList = [ToothViewModel]()
-    
     var selectedTooth = MutableProperty<ToothViewModel?>(nil)
     var isTopBracesSelected = MutableProperty<Bool>(false)
     var isBottomBracesSelected = MutableProperty<Bool>(false)
+    weak var selectToothCoordinator: SelectToothCoordinator?
     
     // Return number of teeth in the list
     var teethCount: Int {

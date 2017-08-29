@@ -304,13 +304,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9A2EF2E51E5772540046748D /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
 		9A2EF2F21E5D009F0046748D /* Data Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -378,7 +371,6 @@
 				9A12157D1F0B9EA000965B39 /* ToothDetailScene */,
 				9A2EF2F21E5D009F0046748D /* Data Managers */,
 				9A9A8DA71C945DD70095DFCD /* Utilities */,
-				9A2EF2E51E5772540046748D /* Extensions */,
 				9A2EF2D11E5494F50046748D /* Supporting Files */,
 			);
 			path = kefa;

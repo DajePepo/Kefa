@@ -18,13 +18,13 @@ class SelectToothViewController: BaseViewController, MouthDelegate {
     let mouth = MouthView()
     var lineView = DashLineView()
     var toothPreviewViewController: ToothPreviewViewController?
+    var isLayoutReady = false
     
     // MARK: - Interface Builder Outlet
     
     @IBOutlet var panGestureRecognizer: UIPanGestureRecognizer!
     @IBOutlet weak var topGumView: UIImageView!
     @IBOutlet weak var bottomGumView: UIImageView!
-    @IBOutlet weak var toothInfoButton: UIButton!
     @IBOutlet weak var topBracesView: BracesView!
     @IBOutlet weak var bottomBracesView: BracesView!
     @IBOutlet weak var toothInfoView: UIView! {
@@ -40,25 +40,22 @@ class SelectToothViewController: BaseViewController, MouthDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()        
+        
         showUserNavigationItem = true
         
+        // Set sub controller -> Tooth Preview View Controller
         toothPreviewViewController = childViewControllers.first as? ToothPreviewViewController
         toothPreviewViewController?.configure(viewModel: selectToothViewModel!)
-        
     }
-
+    
     override func viewDidLayoutSubviews() {
-        setLayout()
+        if !isLayoutReady { setLayout() }
     }
 
     func configure(viewModel: SelectToothViewModel) {
         
         selectToothViewModel = viewModel
-        
-        // Set sub controller -> Tooth Preview View Controller
-        toothPreviewViewController = childViewControllers.first as? ToothPreviewViewController
-        toothPreviewViewController?.configure(viewModel: selectToothViewModel!)
-        
+
         // Set this class as delegate for month view
         mouth.delegate = self
         
@@ -89,6 +86,8 @@ class SelectToothViewController: BaseViewController, MouthDelegate {
         // Disable braces
         topBracesView.disable()
         bottomBracesView.disable()
+        
+        isLayoutReady = true
     }
 
     // MARK: - Methods to catch user gestures

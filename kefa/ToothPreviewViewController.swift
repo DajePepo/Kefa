@@ -19,6 +19,7 @@ class ToothPreviewViewController: UIViewController {
     @IBOutlet weak var centerButtonIcon: UIImageView!
     @IBOutlet weak var toothName: UILabel!
     @IBOutlet weak var toothStatus: UILabel!
+    @IBOutlet weak var toothButton: UIButton!
     
     var isActive = MutableProperty<Bool>(false)
     var selectToothViewModel: SelectToothViewModel? // View Model
@@ -28,6 +29,7 @@ class ToothPreviewViewController: UIViewController {
     func configure(viewModel: SelectToothViewModel) {
         
         infoLabel.isHidden = false
+        toothButton.isEnabled = false
         toothInfoContainer.isHidden = true
         selectToothViewModel = viewModel
 
@@ -36,10 +38,11 @@ class ToothPreviewViewController: UIViewController {
             .observe(on: UIScheduler())
             .observeValues { [weak self] newValue in
                 self?.infoLabel.isHidden = newValue
+                self?.toothButton.isEnabled = newValue
                 self?.toothInfoContainer.isHidden = !newValue
             }
     
-        selectToothViewModel!.selectedTooth.signal
+        viewModel.selectedTooth.signal
             .observe(on: UIScheduler())
             .observeValues { [weak self] tooth in
                 guard let tooth = tooth else { return }
@@ -47,7 +50,7 @@ class ToothPreviewViewController: UIViewController {
                 self?.setToothInfo(tooth: tooth)
             }
         
-        selectToothViewModel!.isBottomBracesSelected.signal
+        viewModel.isBottomBracesSelected.signal
             .observe(on: UIScheduler())
             .observeValues { [weak self] isSelected in
                 if isSelected {
@@ -56,14 +59,14 @@ class ToothPreviewViewController: UIViewController {
                 }
             }
 
-        selectToothViewModel!.isTopBracesSelected.signal
+        viewModel.isTopBracesSelected.signal
             .observe(on: UIScheduler())
             .observeValues { [weak self] isSelected in
                 if isSelected {
                     self?.isActive.value = true
                     self?.setBraceInfo()
                 }
-        }
+            }
     }
     
     // Set the right info into the tooth info containers

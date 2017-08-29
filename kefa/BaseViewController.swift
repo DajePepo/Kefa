@@ -35,18 +35,6 @@ class BaseViewController: UIViewController {
             userNavigationItemView.isUserInteractionEnabled = true
             self.navigationItem.titleView = userNavigationItemView
         }
-        
-        // Users Collection view
-        if let usersCollectionViewContainer = UsersCollectionViewContainer.instanceFromNib() as? UsersCollectionViewContainer {
-            self.usersCollectionViewContainer = usersCollectionViewContainer
-            self.view.addSubview(usersCollectionViewContainer)
-            usersCollectionViewContainer.translatesAutoresizingMaskIntoConstraints = false
-            usersCollectionViewContainer.heightAnchor.constraint(equalToConstant: usersCollectionViewContainer.collectionViewHeigth).isActive = true
-            usersCollectionViewContainer.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
-            usersCollectionViewContainer.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
-            usersCollectionViewConstraint = usersCollectionViewContainer.topAnchor.constraint(equalTo: self.view.topAnchor, constant: -usersCollectionViewContainer.collectionViewHeigth)
-            usersCollectionViewConstraint!.isActive = true
-        }
     }
     
     func navigationItemDidTap(){
@@ -57,22 +45,38 @@ class BaseViewController: UIViewController {
     
     func showHideUsersCollectionView(show: Bool) {
         
-        guard let usersCollectionViewContainer = usersCollectionViewContainer else { return }
-        
         if grayCoverView == nil {
             grayCoverView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height))
             grayCoverView!.alpha = 0
             grayCoverView!.backgroundColor = UIColor.black
         }
         
-        usersCollectionViewConstraint?.constant = show ? 0 : -usersCollectionViewContainer.collectionViewHeigth
-        if show { self.view.insertSubview(grayCoverView!, belowSubview: usersCollectionViewContainer) }
+        if usersCollectionViewContainer == nil {
+            if let usersCollectionViewContainer = UsersCollectionViewContainer.instanceFromNib() as? UsersCollectionViewContainer {
+                self.usersCollectionViewContainer = usersCollectionViewContainer
+                self.view.addSubview(usersCollectionViewContainer)
+                usersCollectionViewContainer.translatesAutoresizingMaskIntoConstraints = false
+                usersCollectionViewContainer.heightAnchor.constraint(equalToConstant: usersCollectionViewContainer.collectionViewHeigth).isActive = true
+                usersCollectionViewContainer.leadingAnchor.constraint(equalTo: self.view.leadingAnchor).isActive = true
+                usersCollectionViewContainer.trailingAnchor.constraint(equalTo: self.view.trailingAnchor).isActive = true
+                usersCollectionViewConstraint = usersCollectionViewContainer.topAnchor.constraint(equalTo: self.view.topAnchor, constant: -usersCollectionViewContainer.collectionViewHeigth)
+                usersCollectionViewConstraint!.isActive = true
+                self.view.layoutIfNeeded()
+            }
+        }
+        
+        guard let usersCollectionViewConstraint = usersCollectionViewConstraint,
+              let usersCollectionViewContainer = usersCollectionViewContainer,
+              let grayCoverView = grayCoverView else { return }
+        
+        usersCollectionViewConstraint.constant = show ? 0 : -usersCollectionViewContainer.collectionViewHeigth
+        if show { self.view.insertSubview(grayCoverView, belowSubview: usersCollectionViewContainer) }
         
         UIView.animate(withDuration: 0.3, animations: {
             self.view.layoutIfNeeded()
-            self.grayCoverView!.alpha = show ? 0.5: 0
+            grayCoverView.alpha = show ? 0.5: 0
         }) { _ in
-            if !show { self.grayCoverView!.removeFromSuperview() }
+            if !show { grayCoverView.removeFromSuperview() }
         }
     }
 }

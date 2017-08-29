@@ -6,16 +6,16 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "kefa/SelectToothViewController.swift"
-            timestampString = "525702544.384903"
+            filePath = "kefa/SelectToothCoordinator.swift"
+            timestampString = "525734264.906853"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
-            landmarkName = "configure(viewModel:)"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "performTransitionToToothDetail()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
